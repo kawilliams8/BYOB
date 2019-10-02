@@ -13,12 +13,16 @@ exports.up = function(knex) {
     knex.schema.createTable("avalanches", function(table) {
       table.increments("id").primary();
       table.string("date");
+      table.string("date_precision");
       table.string("first_name");
       table.string("last_name");
+      table.string("elevation");
       table.string("aspect");
       table.string("type");
       table.string("trigger");
-      table.string("elevation");
+      table.string("type");
+      table.string("release_size");
+      table.string("desctructive_size");
       table.integer("zone_id").unsigned();
       table.foreign("zone_id").references("zone.id");
 
