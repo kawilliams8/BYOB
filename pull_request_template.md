@@ -4,8 +4,6 @@ Description of the change and issue being fixed. Include relevant motivation and
 
 ## Type of change
 
-Delete options that are not relevant.
-
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
@@ -19,4 +17,4 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 ## Checklist:
 
-- [ ] Add checklist items here
+- [ ] Item 1
