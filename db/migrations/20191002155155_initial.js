@@ -20,11 +20,10 @@ exports.up = function(knex) {
       table.string("aspect");
       table.string("type");
       table.string("trigger");
-      table.string("type");
       table.string("release_size");
       table.string("desctructive_size");
-      table.integer("zone_id").unsigned();
-      table.foreign("zone_id").references("zone.id");
+      table.integer("forecast_zones_id").unsigned();
+      table.foreign("forecast_zones_id").references("forecast_zones.id");
 
       table.timestamps(true, true);
     })
