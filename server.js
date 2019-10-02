@@ -21,7 +21,6 @@ app.listen(app.get("port"), () => {
 });
 
 const avalanches = [];
-
 fs.createReadStream("avalanches.csv")
   .pipe(csv())
   .on("data", data => avalanches.push(data))
@@ -30,7 +29,6 @@ fs.createReadStream("avalanches.csv")
   });
 
 const forecast_zones = [];
-
 fs.createReadStream("forecast_zones.csv")
   .pipe(csv())
   .on("data", data => forecast_zones.push(data))
