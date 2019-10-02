@@ -1,3 +1,4 @@
+date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger,release_size,destructive_size
 2019/05/31,Estimated,Vail & Summit County,Jordan,Lipp,>TL,All,WL,N,,D1
 2019/05/30,Estimated,Vail & Summit County,Drew,Gibson,>TL,NW,SS,N,R1,D2
 2019/05/30,Known,Vail & Summit County,Drew,Gibson,>TL,N,WL,AS,R1,D2
