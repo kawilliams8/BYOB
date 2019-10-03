@@ -29,7 +29,21 @@ app.get("/api/v1/avalanches", (request, response) => {
       response.status(200).json(avalanches);
     })
     .catch(error => {
-      response.status(500).json({ error });
+      response.status(404).json({ error });
+    });
+});
+
+app.get("/api/v1/avalanches/:id", (request, response) => {
+  const id = parseInt(request.params.id);
+
+  database("avalanches")
+    .select()
+    .then(avalanches => avalanches.find(avalanche => avalanche.id === id))
+    .then(avalanche => {
+      response.status(200).json({ avalanche });
+    })
+    .catch(error => {
+      response.status(404).json({ error: "Avalanche not found" });
     });
 });
 
@@ -40,6 +54,6 @@ app.get("/api/v1/forecast_zones", (request, response) => {
       response.status(200).json(forecast_zones);
     })
     .catch(error => {
-      response.status(500).json({ error });
+      response.status(404).json({ error });
     });
 });
