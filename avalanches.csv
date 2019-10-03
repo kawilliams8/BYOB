@@ -1,7 +1,7 @@
 date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger,release_size,destructive_size
-2019/05/31,Estimated,Vail & Summit County,Jordan,Lipp,>TL,All,WL,N,,D1
-2019/05/30,Estimated,Vail & Summit County,Drew,Gibson,>TL,NW,SS,N,R1,D2
-2019/05/30,Known,Vail & Summit County,Drew,Gibson,>TL,N,WL,AS,R1,D2
+2019/05/31,Estimated,Vail and Summit County,Jordan,Lipp,>TL,All,WL,N,,D1
+2019/05/30,Estimated,Vail and Summit County,Drew,Gibson,>TL,NW,SS,N,R1,D2
+2019/05/30,Known,Vail and Summit County,Drew,Gibson,>TL,N,WL,AS,R1,D2
 2019/05/30,Estimated,Aspen,Brian,Lazar,>TL,N,WL,N,R1,D1.5
 2019/05/27,Estimated,Sawatch Range,Rob,Vandervoort,>TL,E,SS,AS,,D1.5
 2019/05/25,Estimated,Front Range,Andrew,McLean,>TL,NE,WS,N,,D2
@@ -16,12 +16,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/24,Estimated,Sawatch Range,Becs,Hodgetts,>TL,SE,HS,AH,R1,D1
 2019/05/24,Estimated,Sawatch Range,Becs,Hodgetts,>TL,SE,HS,AH,R2,D2
 2019/05/24,Estimated,Northern San Juan,Amy,Pertuz,,W,SS,N,R3,D2.5
-2019/05/23,Estimated,Vail & Summit County,Ellen,Hollinshead,>TL,E,SS,N,R2,D1
+2019/05/23,Estimated,Vail and Summit County,Ellen,Hollinshead,>TL,E,SS,N,R2,D1
 2019/05/22,Known,Front Range,Spencer,Logan,>TL,SE,WL,N,,D1.5
 2019/05/22,Known,Front Range,Spencer,Logan,>TL,N,WL,N,,D1.5
 2019/05/22,Known,Front Range,Spencer,Logan,TL,E,SS,AS,,D1.5
-2019/05/22,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,E,SS,N,R1,D1
-2019/05/22,Estimated,Vail & Summit County,Brian,Carisch,>TL,,SS,AS,R1,D1
+2019/05/22,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,E,SS,N,R1,D1
+2019/05/22,Estimated,Vail and Summit County,Brian,Carisch,>TL,,SS,AS,R1,D1
 2019/05/22,Estimated,Front Range,Mike,Soucy,>TL,SE,SS,AS,R1,D1
 2019/05/21,Known,Front Range,Ryan,Zarter,TL,N,SS,AX,R2,D1
 2019/05/21,Known,Front Range,Ryan,Zarter,TL,N,SS,AX,R2,D1.5
@@ -39,7 +39,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/19,Estimated,Front Range,Stephanie,Porter,<TL,E,SS,AS,,D1
 2019/05/18,Estimated,Northern San Juan,Rob,Roof,>TL,N,SS,AS,,D1.5
 2019/05/18,Estimated,Northern San Juan,Rob,Roof,>TL,NE,SS,AS,,D1
-2019/05/16,Estimated,Vail & Summit County,Dave,Cole,<TL,W,WS,AS,R1,D1
+2019/05/16,Estimated,Vail and Summit County,Dave,Cole,<TL,W,WS,AS,R1,D1
 2019/05/15,Known,Front Range,Ryan,Zarter,TL,N,WL,AX,R1,D1
 2019/05/15,Known,Front Range,Ryan,Zarter,TL,N,WL,AX,,D1
 2019/05/15,Known,Front Range,Ryan,Zarter,TL,N,WS,AX,R2,D1.5
@@ -52,7 +52,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/15,Estimated,Aspen,Brian,Lazar,>TL,SE,WS,N,R1,D2
 2019/05/14,Known,Sawatch Range,Becs,Hodgetts,>TL,E,WL,N,R2,D1
 2019/05/13,Estimated,Aspen,veronica,whitney,>TL,NE,WS,,R2,D2
-2019/05/13,Estimated,Vail & Summit County,Shane,Robat,TL,E,C,AS,R1,D1
+2019/05/13,Estimated,Vail and Summit County,Shane,Robat,TL,E,C,AS,R1,D1
 2019/05/13,Known,Sawatch Range,Becs,Hodgetts,>TL,E,WL,N,R2,D1
 2019/05/13,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,WS,AS,R1,D1
 2019/05/13,Estimated,Sawatch Range,Jason,Konigsberg,>TL,SE,WS,N,R2,D2
@@ -69,7 +69,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/12,Estimated,Sawatch Range,Jason,Konigsberg,TL,SE,WL,N,R2,D2
 2019/05/12,Estimated,Front Range,Peter,Spuhler,>TL,E,SS,AS,,D1.5
 2019/05/11,Known,Front Range,Everett,Phillips,>TL,SE,HS,AS,R2,D2
-2019/05/11,Estimated,Vail & Summit County,Jason,Lederer,TL,NE,WL,U,R1,D1
+2019/05/11,Estimated,Vail and Summit County,Jason,Lederer,TL,NE,WL,U,R1,D1
 2019/05/11,Estimated,Sawatch Range,Jason,Konigsberg,TL,N,WL,N,R1,D1
 2019/05/11,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,WL,N,R2,D1
 2019/05/11,Estimated,Front Range,Aaron,Rose,>TL,N,,AR,,D1
@@ -81,7 +81,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/11,Known,Southern San Juan,Mark,Mueller,TL,E,WL,N,R3,D2
 2019/05/11,Known,Southern San Juan,Mark,Mueller,TL,SE,WL,N,R2,D2
 2019/05/11,Known,Southern San Juan,Mark,Mueller,TL,E,WL,AC,R1,D2
-2019/05/11,Estimated,Vail & Summit County,Jeff,Woodward,>TL,NE,SS,AR,R1,D1
+2019/05/11,Estimated,Vail and Summit County,Jeff,Woodward,>TL,NE,SS,AR,R1,D1
 2019/05/10,Estimated,Sawatch Range,Patrick,Gephart,>TL,W,SS,N,R1,D1.5
 2019/05/10,Estimated,Front Range,Ethan,Collett,>TL,N,SS,AS,R1,D1
 2019/05/10,Estimated,Front Range,John,Cevaal,<TL,E,SS,N,,D1
@@ -91,11 +91,11 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/08,Estimated,Sawatch Range,Jason,Konigsberg,<TL,E,WS,U,R2,D1.5
 2019/05/07,Estimated,Sawatch Range,Jason,Konigsberg,TL,E,WL,N,R1,D1
 2019/05/07,Estimated,Sawatch Range,Jason,Konigsberg,TL,E,WS,N,R1,D1
-2019/05/07,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,S,WS,N,R1,D1
+2019/05/07,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,S,WS,N,R1,D1
 2019/05/07,Estimated,Northern San Juan,Lorne,Glick,>TL,N,SS,AR,,D1.5
 2019/05/07,Estimated,Northern San Juan,Lorne,Glick,>TL,N,SS,AS,,D1.5
 2019/05/07,Estimated,Front Range,Abrahm,Filoramo,>TL,,WL,AS,,D1
-2019/05/06,Known,Vail & Summit County,Spencer,Logan,>TL,E,WL,N,R1,D1
+2019/05/06,Known,Vail and Summit County,Spencer,Logan,>TL,E,WL,N,R1,D1
 2019/05/06,Known,Sawatch Range,Brandon,Levy,TL,E,WS,N,R1,D1.5
 2019/05/06,Estimated,Sawatch Range,Jason,Konigsberg,<TL,SE,WS,AS,R1,D1
 2019/05/06,Estimated,Aspen,Chris,Tonozzi,TL,NE,WL,AS,,D1
@@ -108,7 +108,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/05,Estimated,Front Range,Drew,Labanoski,>TL,,WL,,,
 2019/05/04,Estimated,Sawatch Range,Brandon,Levy,TL,SE,WS,N,R1,D1.5
 2019/05/04,Estimated,Sawatch Range,Brandon,Levy,TL,SE,WS,N,R1,D1
-2019/05/04,Estimated,Vail & Summit County,Spencer,Logan,>TL,N,SS,N,,D2
+2019/05/04,Estimated,Vail and Summit County,Spencer,Logan,>TL,N,SS,N,,D2
 2019/05/04,Estimated,Aspen,Chris,Tonozzi,>TL,NE,,N,,D2
 2019/05/04,Estimated,Front Range,Ryan,Zarter,>TL,NW,WL,N,R1,D1
 2019/05/04,Estimated,Sawatch Range,Brandon,Levy,TL,SE,WS,N,R1,D1
@@ -116,16 +116,16 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/05/03,Estimated,Sawatch Range,Todd,Greenwood,>TL,SE,SS,AS,R1,D2
 2019/05/03,Estimated,Front Range,Ryan,Zarter,>TL,SE,C,N,R1,D1
 2019/05/02,Estimated,Sawatch Range,Jason,Konigsberg,TL,E,WS,N,R2,D1.5
-2019/05/02,Estimated,Vail & Summit County,Spencer,Logan,>TL,NE,SS,N,,D2
+2019/05/02,Estimated,Vail and Summit County,Spencer,Logan,>TL,NE,SS,N,,D2
 2019/05/02,Estimated,Southern San Juan,Chris,Bilbrey,>TL,N,SS,N,R1,D2
 2019/05/02,Estimated,Front Range,Ryan,Zarter,>TL,E,C,N,R2,D2
 2019/05/02,Estimated,Northern San Juan,Chris,Snell,>TL,NE,SS,N,R2,D2
 2019/05/02,Estimated,Northern San Juan,Ethan,Greene,>TL,N,SS,N,R2,D2
 2019/05/01,Estimated,Front Range,Nate,Jones,>TL,NE,SS,AS,,D1.5
-2019/05/01,Estimated,Vail & Summit County,Aaron,Carlson,>TL,N,SS,N,R2,D1.5
+2019/05/01,Estimated,Vail and Summit County,Aaron,Carlson,>TL,N,SS,N,R2,D1.5
 2019/05/01,Estimated,Aspen,Brian,Lazar,>TL,N,SS,N,R2,D1.5
-2019/05/01,Estimated,Vail & Summit County,Patrick,Gephart,>TL,E,SS,AR,R1,D1.5
-2019/05/01,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,SS,AS,R1,D1
+2019/05/01,Estimated,Vail and Summit County,Patrick,Gephart,>TL,E,SS,AR,R1,D1.5
+2019/05/01,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,SS,AS,R1,D1
 2019/04/30,Known,Front Range,Ryan,Zarter,>TL,NW,SS,AX,R1,D1
 2019/04/30,Known,Front Range,Ryan,Zarter,>TL,NW,SS,AX,R2,D1.5
 2019/04/30,Known,Front Range,Ryan,Zarter,TL,N,SS,AX,R2,D1.5
@@ -141,27 +141,27 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/30,Estimated,Front Range,Jason,Maurer,TL,N,SS,AS,R2,D1.5
 2019/04/30,Estimated,Sawatch Range,Jason,Konigsberg,<TL,E,WL,AS,R1,D1
 2019/04/30,Estimated,Sawatch Range,Becs,Hodgetts,>TL,SE,HS,N,R2,D2
-2019/04/28,Estimated,Vail & Summit County,Ryan,Zarter,TL,NE,WL,N,R1,D1
-2019/04/28,Estimated,Vail & Summit County,Ryan,Zarter,TL,NE,WL,N,R1,D1.5
+2019/04/28,Estimated,Vail and Summit County,Ryan,Zarter,TL,NE,WL,N,R1,D1
+2019/04/28,Estimated,Vail and Summit County,Ryan,Zarter,TL,NE,WL,N,R1,D1.5
 2019/04/27,Estimated,Sawatch Range,Jason,Konigsberg,TL,S,WS,N,R1,D1
 2019/04/27,Estimated,Front Range,Evan,Green,>TL,,,,R1,D1.5
-2019/04/27,Estimated,Vail & Summit County,Gary,Smith,>TL,NW,,AS,R1,D1.5
+2019/04/27,Estimated,Vail and Summit County,Gary,Smith,>TL,NW,,AS,R1,D1.5
 2019/04/27,Estimated,Front Range,Jordan,Lipp,,,WS,U,R1,D1
-2019/04/25,Estimated,Vail & Summit County,Jeff,Grabham,>TL,N,SS,AS,R1,D2
-2019/04/25,Estimated,Vail & Summit County,Jason Konigsberg - ,Ron Simenhois,>TL,W,WL,U,R1,D1
-2019/04/24,Estimated,Vail & Summit County,Rob,Beshures,All,SW,WS,AS,R3,D3
+2019/04/25,Estimated,Vail and Summit County,Jeff,Grabham,>TL,N,SS,AS,R1,D2
+2019/04/25,Estimated,Vail and Summit County,Jason Konigsberg - ,Ron Simenhois,>TL,W,WL,U,R1,D1
+2019/04/24,Estimated,Vail and Summit County,Rob,Beshures,All,SW,WS,AS,R3,D3
 2019/04/24,Estimated,Gunnison,Ben,Pritchett,>TL,SE,WL,N,R1,D1
 2019/04/24,Estimated,Gunnison,Ben,Pritchett,TL,E,WL,N,R1,D1
 2019/04/23,Known,Northern San Juan,Colin,Mitchell,<TL,NW,WL,N,R1,D1
 2019/04/23,Estimated,Front Range,Zach,Tucker,>TL,SE,,N,,D2
-2019/04/23,Estimated,Vail & Summit County,Alex,Gelb,>TL,N,WL,AS,R2,D1.5
-2019/04/23,Estimated,Vail & Summit County,Daniel,MacDonald,<TL,NE,WS,AS,R2,D1.5
+2019/04/23,Estimated,Vail and Summit County,Alex,Gelb,>TL,N,WL,AS,R2,D1.5
+2019/04/23,Estimated,Vail and Summit County,Daniel,MacDonald,<TL,NE,WS,AS,R2,D1.5
 2019/04/23,Estimated,Northern San Juan,Jeff,Davis,TL,E,WL,N,R1,D1
 2019/04/22,Estimated,Northern San Juan,Colin,Mitchell,<TL,NE,WS,N,R1,D1.5
 2019/04/21,Estimated,Northern San Juan,Jeff,Davis,TL,E,WL,N,R1,D1
-2019/04/21,Estimated,Vail & Summit County,Jeff,Welch,,,,,,
-2019/04/21,Estimated,Vail & Summit County,Tom,Richardson,>TL,SE,WL,N,R2,D1.5
-2019/04/20,Estimated,Steamboat & Flat Tops,Kevin,Coles,<TL,SE,WL,AS,,D1
+2019/04/21,Estimated,Vail and Summit County,Jeff,Welch,,,,,,
+2019/04/21,Estimated,Vail and Summit County,Tom,Richardson,>TL,SE,WL,N,R2,D1.5
+2019/04/20,Estimated,Steamboat and Flat Tops,Kevin,Coles,<TL,SE,WL,AS,,D1
 2019/04/20,Estimated,Aspen,Matt,Huber,TL,E,WL,N,R1,D1
 2019/04/20,Estimated,Gunnison,Ben,Pritchett,TL,NE,WL,N,R1,D1.5
 2019/04/20,Known,Gunnison,Ben,Pritchett,>TL,W,WS,N,R1,D1
@@ -171,7 +171,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/19,Estimated,Front Range,Ryan,Zarter,<TL,S,WL,N,R1,D1
 2019/04/19,Estimated,Aspen,Matt,Huber,>TL,SE,WL,N,R1,D1.5
 2019/04/15,Estimated,Gunnison,Crested Butte,Avalanche Center,>TL,E,C,,,D2
-2019/04/15,Estimated,Vail & Summit County,Greg,Morgano,>TL,E,SS,AS,R1,D1.5
+2019/04/15,Estimated,Vail and Summit County,Greg,Morgano,>TL,E,SS,AS,R1,D1.5
 2019/04/15,Estimated,Northern San Juan,Chris,Bilbrey,TL,S,WS,N,R1,D1
 2019/04/15,Estimated,Front Range,Nate,Varns,>TL,E,,,R1,D1
 2019/04/15,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,,SE,,AS,,D2
@@ -180,7 +180,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/15,Estimated,Aspen,Matt,Huber,TL,SE,WL,U,R1,D1.5
 2019/04/15,Estimated,Aspen,Topher,Sabella,>TL,NE,SS,AF,R2,D2
 2019/04/14,Known,Aspen,Matt,Huber,>TL,SE,WL,N,R1,D1.5
-2019/04/14,Estimated,Vail & Summit County,Carrie,Sesker,<TL,SW,WL,AS,R1,D1
+2019/04/14,Estimated,Vail and Summit County,Carrie,Sesker,<TL,SW,WL,AS,R1,D1
 2019/04/14,Estimated,Northern San Juan,Jeff,Davis,<TL,E,WL,N,R1,D1
 2019/04/14,Estimated,Sawatch Range,Ian,Bloomfield,>TL,SE,,AS,R2,D2
 2019/04/14,Estimated,Front Range,Robert,Coppolillo,,E,,N,R1,D1
@@ -189,7 +189,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/14,Estimated,Northern San Juan,Jason,Konigsberg,>TL,NE,L,U,R1,D1
 2019/04/14,Estimated,Northern San Juan,Jason,Konigsberg,<TL,NE,WL,AS,R1,D1
 2019/04/14,Estimated,Aspen,Wesley,Reynolds,>TL,NE,SS,AS,R2,D1
-2019/04/14,Estimated,Steamboat & Flat Tops,Kreston,Rohrig,<TL,E,WL,AS,R1,D1
+2019/04/14,Estimated,Steamboat and Flat Tops,Kreston,Rohrig,<TL,E,WL,AS,R1,D1
 2019/04/14,Estimated,Aspen,David,Gench,>TL,SE,SS,N,R1,D1.5
 2019/04/14,Estimated,Aspen,David,Gench,>TL,SE,SS,AS,R1,D1.5
 2019/04/13,Known,Gunnison,Whitney,Gilliam,<TL,E,WL,AS,,D1
@@ -209,8 +209,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/11,Known,Front Range,Ron,Simenhois,<TL,N,SS,AX,R2,D1
 2019/04/11,Known,Front Range,Ron,Simenhois,<TL,N,SS,AX,R2,D1
 2019/04/11,Estimated,Northern San Juan,Ann,Mellick,>TL,E,SS,N,R2,D1.5
-2019/04/11,Estimated,Vail & Summit County,Aaron,Carlson,>TL,S,HS,AS,,D1.5
-2019/04/11,Estimated,Vail & Summit County,Aaron,Carlson,>TL,N,,AS,,D1
+2019/04/11,Estimated,Vail and Summit County,Aaron,Carlson,>TL,S,HS,AS,,D1.5
+2019/04/11,Estimated,Vail and Summit County,Aaron,Carlson,>TL,N,,AS,,D1
 2019/04/11,Estimated,Front Range,Ian,Fowler,>TL,NE,,N,,D1.5
 2019/04/11,Estimated,Front Range,Ian,Fowler,>TL,NE,,AS,,D2
 2019/04/11,Estimated,Northern San Juan,Jason,Konigsberg,TL,E,SS,AS,R1,D1
@@ -223,16 +223,16 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/09,Estimated,Sawatch Range,Becs,Hodgetts,TL,E,HS,N,R2,D1.5
 2019/04/09,Estimated,Northern San Juan,Chris Bilbrey,Jeff Davis,>TL,S,WS,N,R3,D2
 2019/04/09,Estimated,Aspen,Matt,Huber,<TL,W,WL,N,R1,D1.5
-2019/04/09,Estimated,Vail & Summit County,Jason,Konigsberg,,,,,,
+2019/04/09,Estimated,Vail and Summit County,Jason,Konigsberg,,,,,,
 2019/04/09,Estimated,Front Range,Greg,Horvath,>TL,NE,SS,AS,R3,D1
 2019/04/09,Estimated,Aspen,Matt,Huber,TL,SE,WL,N,R1,D1
-2019/04/08,Known,Vail & Summit County,Becs,Hodgetts,TL,NW,WL,N,R3,D1.5
+2019/04/08,Known,Vail and Summit County,Becs,Hodgetts,TL,NW,WL,N,R3,D1.5
 2019/04/08,Estimated,Aspen,Matt,Huber,<TL,E,WL,N,R1,D1.5
-2019/04/08,Estimated,Vail & Summit County,Kevin,Kusiak,<TL,S,WL,N,R2,D1.5
+2019/04/08,Estimated,Vail and Summit County,Kevin,Kusiak,<TL,S,WL,N,R2,D1.5
 2019/04/07,Known,Northern San Juan,Colin,Mitchell,<TL,NE,WL,N,R1,D1.5
-2019/04/07,Estimated,Steamboat & Flat Tops,Dan,Edmiston,>TL,W,WS,N,R2,D2
+2019/04/07,Estimated,Steamboat and Flat Tops,Dan,Edmiston,>TL,W,WS,N,R2,D2
 2019/04/07,Estimated,Front Range,Alex,Moon,TL,E,,AS,,D1
-2019/04/07,Estimated,Vail & Summit County,Becs,Hodgetts,<TL,SE,WL,N,R2,D1
+2019/04/07,Estimated,Vail and Summit County,Becs,Hodgetts,<TL,SE,WL,N,R2,D1
 2019/04/07,Estimated,Northern San Juan,Colin,Mitchell,<TL,NE,WL,N,R1,D1
 2019/04/07,Known,Front Range,Ryan,Zarter,<TL,N,SS,AS,R1,D1
 2019/04/06,Known,Northern San Juan,Ann,Mellick,<TL,NW,WL,N,R2,D2
@@ -241,7 +241,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/06,Estimated,Sawatch Range,Becs,Hodgetts,>TL,SE,HS,N,R3,D2
 2019/04/06,Estimated,Sawatch Range,Becs,Hodgetts,,,,,,
 2019/04/06,Estimated,Sawatch Range,Becs,Hodgetts,>TL,SE,HS,N,R4,D2.5
-2019/04/06,Estimated,Steamboat & Flat Tops,Lucas,Mouttet,>TL,SE,SS,N,R2,D1.5
+2019/04/06,Estimated,Steamboat and Flat Tops,Lucas,Mouttet,>TL,SE,SS,N,R2,D1.5
 2019/04/06,Estimated,Front Range,CMS,-,<TL,SE,WL,N,,D1
 2019/04/06,Estimated,Front Range,CMS,-,>TL,E,WL,N,,D1
 2019/04/06,Estimated,Northern San Juan,Patrick,Ormond,>TL,N,L,AS,R1,D1.5
@@ -256,7 +256,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/04,Known,Front Range,Ryan,Zarter,TL,N,SS,AX,R1,D1
 2019/04/04,Estimated,Aspen,Matt,Huber,>TL,NE,WL,N,R1,D1
 2019/04/04,Estimated,Aspen,Matt,Huber,>TL,NW,WL,N,R1,D1
-2019/04/04,Estimated,Vail & Summit County,Kreston,Rohrig,<TL,S,WL,AS,R1,D1
+2019/04/04,Estimated,Vail and Summit County,Kreston,Rohrig,<TL,S,WL,AS,R1,D1
 2019/04/04,Estimated,Northern San Juan,Southern Mountain,Forecasters,TL,N,WL,AS,R1,D1
 2019/04/04,Estimated,Grand Mesa,Matt,Huber,<TL,N,WL,N,R1,D1
 2019/04/04,Estimated,Aspen,Brian,Lazar,TL,NE,WL,AS,,D1
@@ -276,9 +276,9 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/04/02,Estimated,Gunnison,Eric,Murrow,TL,N,L,AS,,D1
 2019/04/02,Estimated,Gunnison,Eric,Murrow,TL,SE,WL,AS,,D1
 2019/04/02,Estimated,Gunnison,Eric,Murrow,TL,S,WL,N,,D1
-2019/04/02,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,S,HS,N,R4,D3
-2019/04/02,Known,Vail & Summit County,Jason,Konigsberg,>TL,S,WL,U,R1,D1
-2019/04/02,Known,Vail & Summit County,Jason,Konigsberg,>TL,N,L,N,R1,D1
+2019/04/02,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,S,HS,N,R4,D3
+2019/04/02,Known,Vail and Summit County,Jason,Konigsberg,>TL,S,WL,U,R1,D1
+2019/04/02,Known,Vail and Summit County,Jason,Konigsberg,>TL,N,L,N,R1,D1
 2019/04/02,Estimated,Northern San Juan,Jasper,Thompson,>TL,S,WS,N,R2,D2
 2019/04/01,Estimated,Southern San Juan,Chris,Bilbrey,>TL,NW,SS,N,R1,D1
 2019/04/01,Estimated,Gunnison,Eric Murrow,Zach Kinler,>TL,S,SS,AS,,
@@ -298,14 +298,14 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/28,Estimated,Front Range,Ryan,Zarter,>TL,S,HS,,R1,D1.5
 2019/03/28,Estimated,Southern San Juan,Mark,Mueller,<TL,SE,WL,N,R3,D2
 2019/03/28,Estimated,Gunnison,Ben,Pritchett,<TL,SE,WS,N,R1,D1.5
-2019/03/28,Estimated,Vail & Summit County,Kreston,Rohrig,TL,E,WS,N,R2,D2
-2019/03/28,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,N,HS,AS,R2,D2
+2019/03/28,Estimated,Vail and Summit County,Kreston,Rohrig,TL,E,WS,N,R2,D2
+2019/03/28,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,N,HS,AS,R2,D2
 2019/03/28,Estimated,Aspen,Matt,Huber,<TL,S,WS,N,R2,D2
-2019/03/28,Estimated,Steamboat & Flat Tops,Max,Strotbeck,<TL,E,WS,AS,R1,D1
+2019/03/28,Estimated,Steamboat and Flat Tops,Max,Strotbeck,<TL,E,WS,AS,R1,D1
 2019/03/28,Estimated,Northern San Juan,Ethan,Greene,<TL,E,WS,N,R1,D2
 2019/03/27,Known,Front Range,Ryan,Zarter,<TL,E,WS,N,R1,D1
 2019/03/27,Known,Front Range,Ryan,Zarter,<TL,E,WS,N,R3,D1.5
-2019/03/27,Known,Vail & Summit County,Ryan,Zarter,<TL,E,WS,N,R2,D2
+2019/03/27,Known,Vail and Summit County,Ryan,Zarter,<TL,E,WS,N,R2,D2
 2019/03/27,Estimated,Southern San Juan,Logan,Hjelmstad,TL,NE,SS,AC,R1,D1
 2019/03/27,Estimated,Gunnison,Ian,Havlick,<TL,E,WS,N,R2,D2
 2019/03/27,Estimated,Gunnison,Ben,Pritchett,<TL,E,WS,N,R1,D1.5
@@ -323,14 +323,14 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/25,Estimated,Aspen,Matt,Huber,TL,SE,WL,AS,R1,D1
 2019/03/25,Estimated,Aspen,Matt,Huber,TL,SE,WL,N,R1,D1
 2019/03/24,Known,Front Range,CMS,Guides,>TL,SE,SS,AR,R2,D2
-2019/03/23,Known,Vail & Summit County,Mike,Cooperstein,>TL,W,SS,AF,R1,D1.5
+2019/03/23,Known,Vail and Summit County,Mike,Cooperstein,>TL,W,SS,AF,R1,D1.5
 2019/03/23,Known,Front Range,Kevin,Sturmer,>TL,NE,SS,AF,R1,D1.5
 2019/03/23,Estimated,Northern San Juan,Patrick,Ormond,TL,N,SS,AS,R1,D1.5
 2019/03/22,Known,Northern San Juan,Jeff Davis,Chris  Bilbrey,>TL,N,L,N,R1,D1
 2019/03/22,Known,Southern San Juan,Mark,Mueller,TL,NE,SS,AS,R2,D1.5
 2019/03/22,Known,Northern San Juan,Ann,Mellick,<TL,E,SS,AE,R2,D1.5
 2019/03/22,Known,Northern San Juan,Ann,Mellick,<TL,NE,SS,AE,R2,D2
-2019/03/21,Estimated,Vail & Summit County,Kreston,Rohrig,TL,S,WS,N,R2,D2
+2019/03/21,Estimated,Vail and Summit County,Kreston,Rohrig,TL,S,WS,N,R2,D2
 2019/03/21,Estimated,Southern San Juan,Chris,Bilbrey,<TL,N,SS,AS,R1,D1
 2019/03/20,Estimated,Southern San Juan,Chris,Bilbrey,>TL,SW,WL,N,R1,D1
 2019/03/20,Estimated,Aspen,Brian,Lazar,>TL,S,WS,N,R2,D2
@@ -379,7 +379,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/15,Known,Northern San Juan,Colin,Mitchell,TL,W,,AH,R2,D2
 2019/03/15,Known,Northern San Juan,Colin,Mitchell,TL,SW,HS,AH,R2,D2.5
 2019/03/15,Known,Northern San Juan,Colin,Mitchell,TL,S,HS,AH,R3,D3
-2019/03/15,Estimated,Vail & Summit County,Dylan,Craaybeek,>TL,SW,HS,N,R4,D4
+2019/03/15,Estimated,Vail and Summit County,Dylan,Craaybeek,>TL,SW,HS,N,R4,D4
 2019/03/15,Known,Northern San Juan,Ann,Mellick,<TL,E,SS,AH,R2,D2
 2019/03/15,Known,Northern San Juan,Ann,Mellick,TL,SE,SS,AH,R2,D2
 2019/03/15,Known,Northern San Juan,Ann,Mellick,>TL,SE,SS,AH,R4,D4
@@ -396,12 +396,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/15,Estimated,Aspen,Nathan,Baier,TL,NE,HS,N,R4,D3
 2019/03/15,Estimated,Aspen,Scott,Messina,>TL,NW,,N,R3,D2.5
 2019/03/15,Estimated,Sawatch Range,Jason,Maurer,>TL,SE,HS,N,R4,D4
-2019/03/15,Estimated,Vail & Summit County,Ellen,Hollinshead,>TL,N,HS,N,R2,D2
-2019/03/15,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,S,HS,N,R3,D2.5
-2019/03/15,Estimated,Steamboat & Flat Tops,Tyler,Troy,<TL,SE,SS,AS,R2,D1.5
-2019/03/15,Estimated,Vail & Summit County,Jack,Rueppel,TL,SE,HS,N,R2,D2
-2019/03/15,Estimated,Vail & Summit County,Bruce,Hodgkins,TL,SE,HS,N,R2,D2
-2019/03/15,Estimated,Vail & Summit County,Bruce,Hodgkins,TL,SE,HS,N,R3,D3
+2019/03/15,Estimated,Vail and Summit County,Ellen,Hollinshead,>TL,N,HS,N,R2,D2
+2019/03/15,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,S,HS,N,R3,D2.5
+2019/03/15,Estimated,Steamboat and Flat Tops,Tyler,Troy,<TL,SE,SS,AS,R2,D1.5
+2019/03/15,Estimated,Vail and Summit County,Jack,Rueppel,TL,SE,HS,N,R2,D2
+2019/03/15,Estimated,Vail and Summit County,Bruce,Hodgkins,TL,SE,HS,N,R2,D2
+2019/03/15,Estimated,Vail and Summit County,Bruce,Hodgkins,TL,SE,HS,N,R3,D3
 2019/03/15,Known,Northern San Juan,Ann,Mellick,TL,E,SS,AH,R2,D2
 2019/03/15,Estimated,Front Range,Brian,Roman,>TL,NW,SS,N,R4,D3
 2019/03/14,Known,Southern San Juan,Colin,Mitchell,>TL,S,SS,N,R2,D2
@@ -417,9 +417,9 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/14,Estimated,Northern San Juan,Mark,Mueller,TL,NE,HS,N,R5,D3
 2019/03/14,Estimated,Northern San Juan,Mark,Mueller,TL,N,HS,N,R4,D2.5
 2019/03/14,Estimated,Northern San Juan,Mark,Mueller,>TL,E,HS,N,R4,D3
-2019/03/14,Estimated,Vail & Summit County,Kreston,Rohrig,TL,S,HS,N,R3,D3
-2019/03/14,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,W,HS,N,R3,D2.5
-2019/03/14,Estimated,Vail & Summit County,Michael,Tranovich,<TL,,SS,N,R2,D1.5
+2019/03/14,Estimated,Vail and Summit County,Kreston,Rohrig,TL,S,HS,N,R3,D3
+2019/03/14,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,W,HS,N,R3,D2.5
+2019/03/14,Estimated,Vail and Summit County,Michael,Tranovich,<TL,,SS,N,R2,D1.5
 2019/03/14,Estimated,Sawatch Range,Zach,Moore,TL,NE,,,R3,D2.5
 2019/03/14,Estimated,Northern San Juan,Jasper,Thompson,>TL,N,SS,N,R1,D2
 2019/03/14,Estimated,Northern San Juan,Jasper,Thompson,TL,N,SS,N,R2,D2.5
@@ -432,7 +432,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/14,Estimated,Sangre de Cristo,Dale,Atkins,>TL,W,,N,R3,D3
 2019/03/13,Known,Northern San Juan,Jeff,Davis,<TL,NE,SS,AE,R1,D1.5
 2019/03/13,Known,Northern San Juan,Jeff,Davis,<TL,NE,SS,AE,R1,D1.5
-2019/03/13,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,SS,N,R2,D2
+2019/03/13,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,SS,N,R2,D2
 2019/03/13,Known,Northern San Juan,Colin,Mitchell,<TL,NE,SS,AL,R1,D1.5
 2019/03/13,Known,Northern San Juan,Colin,Mitchell,<TL,NE,SS,AL,R1,D1.5
 2019/03/13,Known,Northern San Juan,Colin,Mitchell,<TL,NE,L,AL,R1,D1.5
@@ -484,8 +484,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/13,Estimated,Southern San Juan,Chris Bilbrey,Jeff Davis,>TL,E,HS,N,R1,D2
 2019/03/13,Estimated,Southern San Juan,Chris Bilbrey,Jeff Davis,>TL,NE,HS,N,R3,D2
 2019/03/13,Estimated,Northern San Juan,Chris,Bilbrey,TL,NE,HS,N,R2,D3
-2019/03/13,Estimated,Vail & Summit County,Kreston,Rohrig,TL,E,HS,N,R2,D2
-2019/03/13,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,SE,SS,N,R2,D2
+2019/03/13,Estimated,Vail and Summit County,Kreston,Rohrig,TL,E,HS,N,R2,D2
+2019/03/13,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,SE,SS,N,R2,D2
 2019/03/13,Estimated,Sawatch Range,Ben,Pritchett,>TL,N,HS,N,R4,D4
 2019/03/13,Estimated,Sawatch Range,Ben,Pritchett,>TL,NW,HS,N,R4,D3.5
 2019/03/13,Estimated,Sawatch Range,Jason,Konigsberg,>TL,NE,HS,N,R4,D3
@@ -509,7 +509,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/13,Estimated,Aspen,Matt,Huber,>TL,NE,HS,N,R2,D2
 2019/03/13,Estimated,Aspen,Matt,Huber,>TL,N,HS,N,R3,D3
 2019/03/13,Estimated,Front Range,Garrett,Akol,>TL,NE,,N,R2,D2.5
-2019/03/13,Estimated,Vail & Summit County,Barrett,Langendoerfer,>TL,NE,HS,N,R2,D2.5
+2019/03/13,Estimated,Vail and Summit County,Barrett,Langendoerfer,>TL,NE,HS,N,R2,D2.5
 2019/03/13,Estimated,Gunnison,Zach,Kinler,>TL,W,HS,N,R3,D3.5
 2019/03/13,Estimated,Sawatch Range,Jason,Konigsberg,TL,SE,,N,R3,D2
 2019/03/13,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,,N,R3,D2.5
@@ -519,9 +519,9 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/13,Estimated,Northern San Juan,Ann,Mellick,TL,NE,SS,N,R3,D2
 2019/03/13,Estimated,Northern San Juan,Ann,Mellick,>TL,SE,SS,N,R3,D2.5
 2019/03/13,Estimated,Northern San Juan,Ann,Mellick,>TL,SE,SS,N,R4,D2.5
-2019/03/13,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,,HS,N,R2,D2
-2019/03/13,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,,HS,N,R3,D2.5
-2019/03/13,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,W,HS,N,R3,D3
+2019/03/13,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,,HS,N,R2,D2
+2019/03/13,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,,HS,N,R3,D2.5
+2019/03/13,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,W,HS,N,R3,D3
 2019/03/13,Estimated,Front Range,Joey,Thompson,TL,,HS,AS,R2,D1
 2019/03/13,Estimated,Northern San Juan,Jonathon,Tracy,>TL,N,SS,N,R4,D3.5
 2019/03/13,Estimated,Northern San Juan,Rob,Haggart,>TL,SE,SS,N,R2,D2.5
@@ -562,13 +562,13 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/12,Estimated,Gunnison,Ben,Pritchett,<TL,NE,WS,N,R3,D2
 2019/03/12,Estimated,Southern San Juan,Matt,Entz,>TL,N,SS,N,R2,D2
 2019/03/12,Estimated,Southern San Juan,Matt,Entz,<TL,E,SS,N,R1,D1.5
-2019/03/12,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,E,HS,N,R2,D2.5
-2019/03/12,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,E,HS,N,R1,D2
-2019/03/12,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,NE,HS,N,R3,D3
+2019/03/12,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,E,HS,N,R2,D2.5
+2019/03/12,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,E,HS,N,R1,D2
+2019/03/12,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,NE,HS,N,R3,D3
 2019/03/12,Estimated,Northern San Juan,Mark,Mueller,<TL,E,WL,N,R3,D1.5
 2019/03/12,Estimated,Sawatch Range,Andrew,Maddox,>TL,W,,,,D3.5
-2019/03/12,Estimated,Vail & Summit County,Chris,Clark,,,,,,
-2019/03/12,Estimated,Vail & Summit County,Gary,Smith,>TL,E,,,R4,D3
+2019/03/12,Estimated,Vail and Summit County,Chris,Clark,,,,,,
+2019/03/12,Estimated,Vail and Summit County,Gary,Smith,>TL,E,,,R4,D3
 2019/03/12,Estimated,Gunnison,Eric,Murrow,<TL,,,,,D2
 2019/03/12,Estimated,Gunnison,Eric,Murrow,<TL,NE,,,,D2
 2019/03/12,Estimated,Aspen,Matt,Huber,TL,W,SS,N,R2,D2.5
@@ -582,24 +582,24 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/12,Known,Southern San Juan,Mark,Mueller,<TL,SE,WL,N,R3,D1.5
 2019/03/12,Known,Southern San Juan,Mark,Mueller,<TL,SE,WL,N,R3,D1.5
 2019/03/12,Known,Southern San Juan,Mark,Mueller,<TL,NE,WL,N,R2,D1.5
-2019/03/11,Known,Vail & Summit County,Jason,Konigsberg,<TL,E,,N,R4,D2
+2019/03/11,Known,Vail and Summit County,Jason,Konigsberg,<TL,E,,N,R4,D2
 2019/03/11,Estimated,Northern San Juan,Jim,Donovan,>TL,S,SS,N,,D3.5
-2019/03/11,Estimated,Steamboat & Flat Tops,Lucas,Mouttet,<TL,NW,,,,D1.5
-2019/03/11,Estimated,Vail & Summit County,David,Engdahl,>TL,E,HS,N,R4,D2.5
+2019/03/11,Estimated,Steamboat and Flat Tops,Lucas,Mouttet,<TL,NW,,,,D1.5
+2019/03/11,Estimated,Vail and Summit County,David,Engdahl,>TL,E,HS,N,R4,D2.5
 2019/03/11,Estimated,Aspen,Morgan,Boyles,<TL,E,WL,,,D1.5
 2019/03/11,Estimated,Aspen,Morgan,Boyles,<TL,NE,WL,N,,D2
-2019/03/11,Estimated,Vail & Summit County,Jason,Konigsberg,<TL,NW,,,,D2
-2019/03/11,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,,AH,R2,D2.5
+2019/03/11,Estimated,Vail and Summit County,Jason,Konigsberg,<TL,NW,,,,D2
+2019/03/11,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,,AH,R2,D2.5
 2019/03/10,Known,Front Range,Johnny,Youngs,<TL,SE,SS,,R2,D1.5
 2019/03/10,Estimated,Aspen,Brian,Lazar,>TL,NW,SS,AH,R3,D3
 2019/03/10,Estimated,Aspen,Matt,Huber,<TL,NE,SS,N,R2,D2
 2019/03/10,Estimated,Aspen,Matt,Huber,<TL,SE,SS,N,R2,D2
-2019/03/10,Estimated,Vail & Summit County,Jon,Adgate,<TL,NW,SS,N,R2,D2
+2019/03/10,Estimated,Vail and Summit County,Jon,Adgate,<TL,NW,SS,N,R2,D2
 2019/03/10,Estimated,Front Range,Paul,Rogers,>TL,E,,N,R4,D3
 2019/03/10,Estimated,Northern San Juan,Ann,Mellick,>TL,NE,SS,N,R4,D2.5
 2019/03/10,Estimated,Sangre de Cristo,Eric,Heltzel,>TL,E,C,N,R1,D1
 2019/03/10,Estimated,Southern San Juan,Chris,Bilbrey,>TL,SE,SS,AC,R1,D1
-2019/03/10,Estimated,Vail & Summit County,Kelli,Rohrig,TL,NE,SS,N,R3,D2.5
+2019/03/10,Estimated,Vail and Summit County,Kelli,Rohrig,TL,NE,SS,N,R3,D2.5
 2019/03/10,Estimated,Northern San Juan,Ann,Mellick,TL,NW,SS,N,R3,D2
 2019/03/10,Estimated,Northern San Juan,Ann,Mellick,TL,NE,SS,N,R3,D2
 2019/03/10,Estimated,Northern San Juan,Ann,Mellick,>TL,NE,SS,N,R3,D2
@@ -607,13 +607,13 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/10,Estimated,Northern San Juan,Ann,Mellick,>TL,SE,SS,N,R4,D3
 2019/03/10,Estimated,Northern San Juan,Ann,Mellick,>TL,E,SS,N,R2,D2
 2019/03/10,Estimated,Sawatch Range,Ethan,Greene,TL,,SS,AX,R3,D2.5
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,SS,AH,R1,D1
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,W,HS,AH,R2,D3
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,W,HS,AH,R1,D2
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D3
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D3
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D3
-2019/03/10,Known,Vail & Summit County,Ryan,Zarter,>TL,W,SS,AH,R1,D1
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,SS,AH,R1,D1
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,W,HS,AH,R2,D3
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,W,HS,AH,R1,D2
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D3
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D3
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D3
+2019/03/10,Known,Vail and Summit County,Ryan,Zarter,>TL,W,SS,AH,R1,D1
 2019/03/10,Estimated,Sawatch Range,Nora,Connell,TL,E,,N,R3,D3
 2019/03/09,Known,Northern San Juan,Jeff,Davis,<TL,NE,SS,AH,R2,D2
 2019/03/09,Known,Northern San Juan,Jeff,Davis,<TL,NE,SS,AH,R2,D2
@@ -659,10 +659,10 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/09,Estimated,Sawatch Range,Jason Konigsberg - ,Ben Pritchett,>TL,NW,,N,R5,D3.5
 2019/03/09,Estimated,Sawatch Range,Jason Konigsberg - ,Ben Pritchett,>TL,E,,N,R5,D3.5
 2019/03/09,Estimated,Sawatch Range,Jason Konigsberg - ,Ben Pritchett,>TL,NW,,N,R5,D3.5
-2019/03/09,Estimated,Vail & Summit County,Jason Konigsberg - ,Mike Cooperstein,>TL,S,,N,R5,D4
-2019/03/09,Estimated,Vail & Summit County,Jason Konigsberg - ,Mike Cooperstein,>TL,S,,N,R5,D3.5
-2019/03/09,Estimated,Vail & Summit County,Jason Konigsberg - ,Mike Cooperstein,>TL,N,,N,R5,D3.5
-2019/03/09,Estimated,Vail & Summit County,Jason Konigsberg - ,Mike Cooperstein,TL,N,,N,R4,D3
+2019/03/09,Estimated,Vail and Summit County,Jason Konigsberg - ,Mike Cooperstein,>TL,S,,N,R5,D4
+2019/03/09,Estimated,Vail and Summit County,Jason Konigsberg - ,Mike Cooperstein,>TL,S,,N,R5,D3.5
+2019/03/09,Estimated,Vail and Summit County,Jason Konigsberg - ,Mike Cooperstein,>TL,N,,N,R5,D3.5
+2019/03/09,Estimated,Vail and Summit County,Jason Konigsberg - ,Mike Cooperstein,TL,N,,N,R4,D3
 2019/03/09,Known,Northern San Juan,Ann,Mellick,>TL,SE,SS,AH,R4,D4
 2019/03/09,Known,Northern San Juan,Ann,Mellick,>TL,W,SS,AH,R4,D4
 2019/03/09,Known,Northern San Juan,Ann,Mellick,>TL,SE,SS,AH,R3,D4
@@ -681,16 +681,16 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/09,Estimated,Aspen,SHANE,EDMONDS,>TL,S,,N,R2,D2
 2019/03/09,Estimated,Front Range,Dale,Atkins,,NE,SS,N,R4,D4
 2019/03/09,Estimated,Front Range,Dale,Atkins,>TL,NE,SS,N,R4,D3
-2019/03/09,Estimated,Vail & Summit County,Parker,Wrozek,>TL,S,,N,R3,D3
+2019/03/09,Estimated,Vail and Summit County,Parker,Wrozek,>TL,S,,N,R3,D3
 2019/03/09,Known,Northern San Juan,Ann,Mellick,TL,W,SS,AH,R4,D3.5
 2019/03/09,Known,Northern San Juan,Ann,Mellick,TL,SE,SS,AH,R3,D3
 2019/03/09,Known,Northern San Juan,Ann,Mellick,TL,W,SS,AH,R3,D3
 2019/03/09,Known,Northern San Juan,Ann,Mellick,>TL,S,SS,AH,R3,D3
 2019/03/09,Known,Northern San Juan,Ann,Mellick,>TL,S,SS,AH,R3,D3
 2019/03/09,Estimated,Northern San Juan,Ann,Mellick,>TL,S,SS,AH,R4,D3
-2019/03/09,Estimated,Vail & Summit County,Ellen,Hollinshead,>TL,,,,R2,D2.5
-2019/03/09,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,SE,,,R1,D1.5
-2019/03/09,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,SE,,,R2,D2
+2019/03/09,Estimated,Vail and Summit County,Ellen,Hollinshead,>TL,,,,R2,D2.5
+2019/03/09,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,SE,,,R1,D1.5
+2019/03/09,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,SE,,,R2,D2
 2019/03/09,Estimated,Sawatch Range,Spencer,Herford,TL,SE,HS,N,R3,D3
 2019/03/09,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,,,R2,D2.5
 2019/03/09,Estimated,Front Range,Kevin,Sturmer,TL,NE,SS,AS,,D1
@@ -698,7 +698,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/09,Estimated,Front Range,Spencer,Logan,>TL,E,HS,N,R2,D2
 2019/03/09,Estimated,Front Range,Spencer,Logan,>TL,NE,HS,N,R2,D2
 2019/03/09,Estimated,Northern San Juan,skippie,zeller,TL,E,SS,AC,R2,D2
-2019/03/09,Estimated,Vail & Summit County,Drew,Gibson,<TL,W,HS,N,R5,D3
+2019/03/09,Estimated,Vail and Summit County,Drew,Gibson,<TL,W,HS,N,R5,D3
 2019/03/09,Estimated,Aspen,Becs,Hodgetts,>TL,N,HS,N,R4,D2.5
 2019/03/09,Estimated,Aspen,Becs,Hodgetts,>TL,NW,HS,N,R4,D3.5
 2019/03/09,Estimated,Aspen,Brian,Lazar,>TL,NW,HS,N,R3,D2.5
@@ -711,7 +711,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/09,Known,Front Range,Ryan,Zarter,TL,N,HS,AX,R2,D2
 2019/03/09,Known,Front Range,Ryan,Zarter,TL,N,HS,AX,R5,D4
 2019/03/09,Known,Front Range,Ryan,Zarter,TL,N,HS,AX,R2,D2
-2019/03/09,Estimated,Vail & Summit County,Bruce,Edgerly,>TL,N,SS,N,R3,D4
+2019/03/09,Estimated,Vail and Summit County,Bruce,Edgerly,>TL,N,SS,N,R3,D4
 2019/03/08,Known,Gunnison,Kylie,Collins,<TL,NW,,N,,D2.5
 2019/03/08,Known,Northern San Juan,Jeff,Davis,<TL,U,HS,N,R4,D3.5
 2019/03/08,Known,Southern San Juan,Mark,Mueller,TL,NE,SS,AC,R2,D1.5
@@ -727,8 +727,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/08,Estimated,Northern San Juan,Mark,Mueller,TL,NW,HS,N,R4,D2
 2019/03/08,Estimated,Northern San Juan,Mark,Mueller,>TL,NE,HS,N,R4,D2.5
 2019/03/08,Estimated,Aspen,Morgan,Boyles,>TL,N,HS,N,R5,D4
-2019/03/08,Estimated,Vail & Summit County,Kim,Onasch,<TL,,,AM,,D2
-2019/03/08,Estimated,Vail & Summit County,Kim,Onasch,>TL,S,,U,R4,D3.5
+2019/03/08,Estimated,Vail and Summit County,Kim,Onasch,<TL,,,AM,,D2
+2019/03/08,Estimated,Vail and Summit County,Kim,Onasch,>TL,S,,U,R4,D3.5
 2019/03/08,Estimated,Northern San Juan,Ann,Mellick,>TL,E,SS,N,R2,D2
 2019/03/08,Estimated,Northern San Juan,Ann,Mellick,>TL,NE,SS,N,R2,D2
 2019/03/08,Estimated,Northern San Juan,Ann,Mellick,>TL,E,SS,N,R2,D2
@@ -759,8 +759,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/08,Estimated,Front Range,Joshua,Baruch,<TL,NE,,N,R1,D1
 2019/03/08,Known,Northern San Juan,Mark,Mueller,<TL,NW,HS,N,R5,D3
 2019/03/08,Known,Northern San Juan,Mark,Mueller,<TL,NW,HS,N,R3,D2
-2019/03/08,Estimated,Vail & Summit County,Kreston,Rohrig,All,E,HS,N,R4,D4
-2019/03/08,Estimated,Vail & Summit County,Lisa,Kendall,TL,NE,HS,N,R3,D2
+2019/03/08,Estimated,Vail and Summit County,Kreston,Rohrig,All,E,HS,N,R4,D4
+2019/03/08,Estimated,Vail and Summit County,Lisa,Kendall,TL,NE,HS,N,R3,D2
 2019/03/08,Known,Front Range,Ryan,Zarter,>TL,S,HS,AE,R3,D4
 2019/03/08,Known,Front Range,Ryan,Zarter,>TL,SE,HS,AE,R1,D1.5
 2019/03/08,Estimated,Sawatch Range,Becs,Hodgetts,<TL,E,SS,AE,R2,D1.5
@@ -769,10 +769,10 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/08,Estimated,Sawatch Range,Becs,Hodgetts,<TL,E,HS,AE,R3,D2
 2019/03/07,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AE,R1,D2
 2019/03/07,Known,Northern San Juan,Colin,Mitchell,<TL,NE,L,AE,R1,D1.5
-2019/03/07,Known,Vail & Summit County,Becs,Hodgetts,TL,E,WL,N,R3,D2
-2019/03/07,Known,Vail & Summit County,Becs,Hodgetts,TL,E,SS,N,R3,D2
-2019/03/07,Known,Vail & Summit County,Becs,Hodgetts,TL,E,SS,N,R3,D2.5
-2019/03/07,Known,Vail & Summit County,Becs,Hodgetts,TL,E,SS,N,R4,D2
+2019/03/07,Known,Vail and Summit County,Becs,Hodgetts,TL,E,WL,N,R3,D2
+2019/03/07,Known,Vail and Summit County,Becs,Hodgetts,TL,E,SS,N,R3,D2
+2019/03/07,Known,Vail and Summit County,Becs,Hodgetts,TL,E,SS,N,R3,D2.5
+2019/03/07,Known,Vail and Summit County,Becs,Hodgetts,TL,E,SS,N,R4,D2
 2019/03/07,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AE,R1,D1.5
 2019/03/07,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AE,R1,D1.5
 2019/03/07,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AE,R1,D1.5
@@ -782,22 +782,22 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/07,Known,Grand Mesa,Brandon,Levy,TL,N,SS,AE,R2,D1.5
 2019/03/07,Known,Grand Mesa,Brandon,Levy,TL,N,HS,AE,R3,D2
 2019/03/07,Estimated,Gunnison,Zach,Guy,>TL,W,,N,R5,D4
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,NE,,N,R5,D4
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,NW,,,R5,D3.5
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,NE,,N,R5,D4
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,NW,,,R5,D3.5
 2019/03/07,Estimated,Sawatch Range,Brandon,Levy,>TL,N,U,N,R4,D4
 2019/03/07,Estimated,Northern San Juan,Jeff,Johnson,>TL,SE,SS,N,R2,D2.5
 2019/03/07,Estimated,Sawatch Range,Becs,Hodgetts,>TL,S,HS,N,R4,D3.5
 2019/03/07,Estimated,Sawatch Range,Brandon,Levy,>TL,N,U,N,R4,D3.5
 2019/03/07,Estimated,Front Range,Jason,Konigsberg,TL,E,U,N,R4,D3
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,SS,N,R4,D3
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,SW,HS,N,R5,D4
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,SW,SS,N,R4,D3.5
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,W,SS,N,R5,D3.5
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,W,SS,N,R5,D4
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,SS,N,R4,D3
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,SE,SS,N,R3,D2.5
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,SE,SS,N,R5,D3.5
-2019/03/07,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,SS,N,R5,D4
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,SS,N,R4,D3
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,SW,HS,N,R5,D4
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,SW,SS,N,R4,D3.5
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,W,SS,N,R5,D3.5
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,W,SS,N,R5,D4
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,SS,N,R4,D3
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,SE,SS,N,R3,D2.5
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,SE,SS,N,R5,D3.5
+2019/03/07,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,SS,N,R5,D4
 2019/03/07,Estimated,Sawatch Range,Becs,Hodgetts,>TL,E,HS,N,R3,D2
 2019/03/07,Estimated,Sawatch Range,Becs,Hodgetts,<TL,W,HS,N,R3,D2
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,<TL,SE,,N,,D2
@@ -806,19 +806,19 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,>TL,NE,,N,R3,D3
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,>TL,SE,,N,R3,D2.5
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,>TL,SE,,N,R2,D2
-2019/03/07,Estimated,Vail & Summit County,Sarah,Pearson,TL,SE,,N,R2,D2
-2019/03/07,Estimated,Vail & Summit County,Sarah,Pearson,TL,S,,,R2,D2
-2019/03/07,Estimated,Vail & Summit County,Kreston,Rohrig,<TL,S,HS,N,R3,D2.5
-2019/03/07,Estimated,Vail & Summit County,Kreston,Rohrig,<TL,W,HS,N,R3,D3
+2019/03/07,Estimated,Vail and Summit County,Sarah,Pearson,TL,SE,,N,R2,D2
+2019/03/07,Estimated,Vail and Summit County,Sarah,Pearson,TL,S,,,R2,D2
+2019/03/07,Estimated,Vail and Summit County,Kreston,Rohrig,<TL,S,HS,N,R3,D2.5
+2019/03/07,Estimated,Vail and Summit County,Kreston,Rohrig,<TL,W,HS,N,R3,D3
 2019/03/07,Estimated,Front Range,Spencer,Logan,>TL,E,,N,,D2.5
 2019/03/07,Estimated,Sawatch Range,Zach,Moore,>TL,E,,N,R3,D3
-2019/03/07,Estimated,Vail & Summit County,Reuben,Brown,<TL,NW,WS,N,,D2
+2019/03/07,Estimated,Vail and Summit County,Reuben,Brown,<TL,NW,WS,N,,D2
 2019/03/07,Estimated,Front Range,Joshua,Baruch,<TL,NE,,N,R2,D1
 2019/03/07,Estimated,Front Range,Joshua,Baruch,<TL,NE,,N,R3,D2
 2019/03/07,Estimated,Front Range,Joshua,Baruch,<TL,NE,,,R2,D1
-2019/03/07,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,N,HS,N,R2,D2
-2019/03/07,Estimated,Vail & Summit County,Kreston,Rohrig,<TL,NE,SS,N,R2,D1.5
-2019/03/07,Estimated,Vail & Summit County,Kreston,Rohrig,TL,S,HS,N,R3,D2.5
+2019/03/07,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,N,HS,N,R2,D2
+2019/03/07,Estimated,Vail and Summit County,Kreston,Rohrig,<TL,NE,SS,N,R2,D1.5
+2019/03/07,Estimated,Vail and Summit County,Kreston,Rohrig,TL,S,HS,N,R3,D2.5
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,TL,SW,,N,R2,D2.5
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,TL,NE,,N,R2,D2.5
 2019/03/07,Estimated,Sawatch Range,Jason,Konigsberg,TL,NW,SS,N,R3,D2
@@ -831,12 +831,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/07,Estimated,Front Range,Eric,Haskell,<TL,N,,N,,D2
 2019/03/07,Estimated,Front Range,Eric,Haskell,>TL,E,,N,,D2
 2019/03/07,Estimated,Aspen,Shane,Edmonds,,,,N,R4,D4
-2019/03/07,Estimated,Vail & Summit County,Stephen,Botts,<TL,SW,,,,
-2019/03/07,Estimated,Vail & Summit County,Rob,Pierce,>TL,E,SS,N,R1,D1.5
+2019/03/07,Estimated,Vail and Summit County,Stephen,Botts,<TL,SW,,,,
+2019/03/07,Estimated,Vail and Summit County,Rob,Pierce,>TL,E,SS,N,R1,D1.5
 2019/03/07,Estimated,Aspen,Scott,Messina,<TL,W,SS,N,R3,D1.5
-2019/03/07,Estimated,Vail & Summit County,Bruce,Hodgkins,<TL,W,WS,N,R2,D2
+2019/03/07,Estimated,Vail and Summit County,Bruce,Hodgkins,<TL,W,WS,N,R2,D2
 2019/03/07,Estimated,Aspen,SHANE,EDMONDS,TL,NE,,N,R3,D3
-2019/03/07,Estimated,Steamboat & Flat Tops,Spencer,Logan,<TL,E,,N,,D2
+2019/03/07,Estimated,Steamboat and Flat Tops,Spencer,Logan,<TL,E,,N,,D2
 2019/03/06,Known,Northern San Juan,Jeff,Davis,>TL,NW,HS,N,R3,D3
 2019/03/06,Known,Northern San Juan,Colin,Mitchell,<TL,W,SS,N,R2,D2
 2019/03/06,Known,Northern San Juan,Colin,Mitchell,<TL,W,SS,AL,R1,D2
@@ -846,7 +846,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/06,Estimated,Aspen,Matt,Huber,TL,NW,HS,N,R4,D4
 2019/03/06,Estimated,Sawatch Range,Brandon,Levy,TL,SW,U,N,R4,D2.5
 2019/03/06,Estimated,Aspen,Brandon,Levy,<TL,E,WS,N,R2,D1.5
-2019/03/06,Estimated,Steamboat & Flat Tops,Art,Judson,<TL,E,SS,N,R3,D2.5
+2019/03/06,Estimated,Steamboat and Flat Tops,Art,Judson,<TL,E,SS,N,R3,D2.5
 2019/03/06,Estimated,Aspen,Brandon,Levy,<TL,E,WS,N,R2,D1.5
 2019/03/06,Estimated,Aspen,Brandon,Levy,<TL,E,WS,N,R2,D1.5
 2019/03/06,Estimated,Aspen,Brandon,Levy,<TL,E,WS,N,R1,D2
@@ -854,14 +854,14 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/06,Estimated,Southern San Juan,Mark,Mueller,<TL,NE,HS,N,R4,D1.5
 2019/03/06,Estimated,Aspen,Greg,Shaffran,,E,HS,N,R1,D1.5
 2019/03/06,Estimated,Northern San Juan,Matt,Steen,>TL,S,HS,N,R4,D3.5
-2019/03/06,Estimated,Vail & Summit County,Becs,Hodgetts,>TL,E,HS,AE,R3,D2.5
-2019/03/06,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,E,,N,R3,D3
+2019/03/06,Estimated,Vail and Summit County,Becs,Hodgetts,>TL,E,HS,AE,R3,D2.5
+2019/03/06,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,E,,N,R3,D3
 2019/03/06,Estimated,Sawatch Range,Ben,Pritchett,>TL,SE,HS,AE,R4,D2.5
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R1,D2
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R1,D2
 2019/03/05,Known,Northern San Juan,Colin,Mitchell,<TL,W,L,AL,R1,D1
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,W,HS,AH,R3,D2
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D2
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R4,D2.5
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,W,HS,AH,R3,D2
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D2
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R4,D2.5
 2019/03/05,Known,Front Range,Ryan,Zarter,>TL,SE,HS,AH,R1,D1
 2019/03/05,Known,Front Range,Ryan,Zarter,>TL,NE,HS,AH,R4,D4
 2019/03/05,Known,Front Range,Ryan,Zarter,>TL,SE,HS,AH,R1,D1.5
@@ -885,13 +885,13 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/05,Estimated,Aspen,Greg,Shaffran,<TL,E,SS,N,R3,D3
 2019/03/05,Estimated,Front Range,Eric,Tollund,>TL,S,HS,AL,R4,D3.5
 2019/03/05,Estimated,Front Range,Richard,Jones,>TL,NE,SS,AS,R1,D1.5
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,W,HS,AH,R3,D3
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D2
-2019/03/05,Known,Vail & Summit County,Ryan,Zarter,>TL,SW,HS,AH,R1,D2
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,W,HS,AH,R3,D3
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,NW,HS,AH,R2,D2
+2019/03/05,Known,Vail and Summit County,Ryan,Zarter,>TL,SW,HS,AH,R1,D2
 2019/03/05,Estimated,Front Range,Ryan,Zarter,>TL,E,HS,N,R2,D2
 2019/03/05,Estimated,Front Range,Ryan,Zarter,>TL,E,HS,N,R3,D2.5
 2019/03/05,Estimated,Northern San Juan,Colin,Mitchell,>TL,N,SS,U,R2,D2
-2019/03/05,Estimated,Vail & Summit County,Drew,Gibson,>TL,NE,SS,N,R2,D3
+2019/03/05,Estimated,Vail and Summit County,Drew,Gibson,>TL,NE,SS,N,R2,D3
 2019/03/04,Known,Northern San Juan,Colin,Mitchell,<TL,NW,HS,AA,R2,D3
 2019/03/04,Known,Northern San Juan,Colin,Mitchell,<TL,W,HS,AA,R3,D4
 2019/03/04,Known,Northern San Juan,Colin,Mitchell,<TL,SW,SS,AA,R2,D2
@@ -919,12 +919,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/04,Estimated,Aspen,Matt,Huber,>TL,NW,HS,N,R3,D3
 2019/03/04,Estimated,Aspen,Murray,Cunningham,>TL,NE,SS,N,R4,D4
 2019/03/04,Estimated,Sawatch Range,B,E,>TL,SW,SS,N,R3,D2.5
-2019/03/04,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,S,,,,D2
-2019/03/04,Estimated,Vail & Summit County,Kreston,Rohrig,<TL,E,SS,N,R2,D2
-2019/03/04,Estimated,Vail & Summit County,Kreston,Rohrig,<TL,E,SS,N,R2,D2
-2019/03/04,Estimated,Vail & Summit County,Kreston,Rohrig,TL,E,SS,N,R1,D1.5
-2019/03/04,Estimated,Vail & Summit County,Kreston,Rohrig,TL,E,SS,N,R3,D2
-2019/03/04,Estimated,Vail & Summit County,Kreston,Rohrig,TL,NE,SS,N,R2,D1.5
+2019/03/04,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,S,,,,D2
+2019/03/04,Estimated,Vail and Summit County,Kreston,Rohrig,<TL,E,SS,N,R2,D2
+2019/03/04,Estimated,Vail and Summit County,Kreston,Rohrig,<TL,E,SS,N,R2,D2
+2019/03/04,Estimated,Vail and Summit County,Kreston,Rohrig,TL,E,SS,N,R1,D1.5
+2019/03/04,Estimated,Vail and Summit County,Kreston,Rohrig,TL,E,SS,N,R3,D2
+2019/03/04,Estimated,Vail and Summit County,Kreston,Rohrig,TL,NE,SS,N,R2,D1.5
 2019/03/04,Known,Northern San Juan,Ann,Mellick,<TL,NW,SS,AL,R2,D2
 2019/03/04,Known,Northern San Juan,Ann,Mellick,<TL,S,L,AE,R2,D2
 2019/03/04,Known,Northern San Juan,Ann,Mellick,<TL,NW,SS,AL,R2,D2
@@ -957,16 +957,16 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/04,Estimated,Gunnison,Eric Murrow,Zach Kinler,TL,SW,SS,N,R3,D2.5
 2019/03/04,Estimated,Gunnison,Eric Murrow,Zach Kinler,TL,W,SS,N,R3,D2.5
 2019/03/04,Estimated,Sangre de Cristo,Logan,Hjelmstad,TL,NW,SS,N,R2,D1.5
-2019/03/04,Estimated,Vail & Summit County,Ethan,Greene,TL,W,SS,N,R3,D2.5
-2019/03/04,Estimated,Vail & Summit County,Ethan,Greene,TL,W,SS,N,R3,D2
-2019/03/04,Estimated,Vail & Summit County,Ethan,Greene,>TL,W,HS,N,R3,D2.5
-2019/03/04,Estimated,Vail & Summit County,Ethan,Greene,>TL,NW,HS,N,R3,D2
-2019/03/04,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,,N,R3,D2.5
+2019/03/04,Estimated,Vail and Summit County,Ethan,Greene,TL,W,SS,N,R3,D2.5
+2019/03/04,Estimated,Vail and Summit County,Ethan,Greene,TL,W,SS,N,R3,D2
+2019/03/04,Estimated,Vail and Summit County,Ethan,Greene,>TL,W,HS,N,R3,D2.5
+2019/03/04,Estimated,Vail and Summit County,Ethan,Greene,>TL,NW,HS,N,R3,D2
+2019/03/04,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,,N,R3,D2.5
 2019/03/04,Estimated,Aspen,Matt,Huber,>TL,N,HS,N,R2,D2
 2019/03/04,Estimated,Aspen,Matt,Huber,TL,E,HS,N,R2,D2.5
-2019/03/04,Estimated,Vail & Summit County,Joe,Vandal,>TL,NE,SS,N,R4,D3
+2019/03/04,Estimated,Vail and Summit County,Joe,Vandal,>TL,NE,SS,N,R4,D3
 2019/03/04,Estimated,Sawatch Range,Ethan,Greene,>TL,NE,SS,N,R2,D2
-2019/03/03,Known,Vail & Summit County,Jason,Konigsberg,TL,NW,SS,N,R3,D3
+2019/03/03,Known,Vail and Summit County,Jason,Konigsberg,TL,NW,SS,N,R3,D3
 2019/03/03,Known,Front Range,Ryan,Zarter,TL,W,SS,AX,R2,D1.5
 2019/03/03,Known,Front Range,Ryan,Zarter,>TL,W,SS,AX,R1,D1
 2019/03/03,Known,Front Range,Ryan,Zarter,>TL,W,SS,AX,R2,D1.5
@@ -977,34 +977,34 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/03,Known,Grand Mesa,Brandon,Levy,TL,N,L,AE,R3,D2
 2019/03/03,Known,Grand Mesa,Brandon,Levy,TL,N,L,AE,R3,D2
 2019/03/03,Known,Grand Mesa,Brandon,Levy,TL,NW,L,AE,R2,D1
-2019/03/03,Known,Vail & Summit County,Jason,Konigsberg,>TL,W,SS,N,R2,D2.5
+2019/03/03,Known,Vail and Summit County,Jason,Konigsberg,>TL,W,SS,N,R2,D2.5
 2019/03/03,Known,Front Range,Mike,Cooperstein,TL,N,,AX,R2,D2
 2019/03/03,Known,Front Range,Mike,Cooperstein,TL,N,SS,AX,R1,D1
 2019/03/03,Known,Front Range,Mike,Cooperstein,TL,N,SS,AX,R2,D2
 2019/03/03,Known,Front Range,Mike,Cooperstein,TL,N,SS,AX,R1,D1
-2019/03/03,Estimated,Vail & Summit County,Rob,Pierce,>TL,W,SS,N,R2,D2
+2019/03/03,Estimated,Vail and Summit County,Rob,Pierce,>TL,W,SS,N,R2,D2
 2019/03/03,Estimated,Aspen,Philip,Ruegger,>TL,SE,HS,N,R3,D3
 2019/03/03,Estimated,Northern San Juan,Ann,Mellick,<TL,N,SS,N,R2,D2
 2019/03/03,Estimated,Northern San Juan,Ann,Mellick,<TL,NE,SS,N,R2,D2
 2019/03/03,Estimated,Northern San Juan,Ann,Mellick,<TL,E,SS,N,R2,D2
 2019/03/03,Known,Northern San Juan,Ann,Mellick,<TL,W,SS,N,R2,D2
 2019/03/03,Estimated,Sawatch Range,Jason,Konigsberg,>TL,W,HS,,R2,D1.5
-2019/03/03,Estimated,Vail & Summit County,Ellen,Hollinshead,>TL,SE,,N,R3,D3
-2019/03/03,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,W,SS,N,R2,D2
-2019/03/03,Estimated,Vail & Summit County,Jason,Konigsberg,TL,NW,SS,N,R2,D2
+2019/03/03,Estimated,Vail and Summit County,Ellen,Hollinshead,>TL,SE,,N,R3,D3
+2019/03/03,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,W,SS,N,R2,D2
+2019/03/03,Estimated,Vail and Summit County,Jason,Konigsberg,TL,NW,SS,N,R2,D2
 2019/03/03,Estimated,Front Range,Spencer,Logan,>TL,E,SS,N,,D2
 2019/03/03,Estimated,Front Range,Spencer,Logan,>TL,N,,N,,D2
 2019/03/03,Estimated,Front Range,Ron,Simenhois,>TL,E,HS,N,R3,D2.5
 2019/03/03,Estimated,Gunnison,Ben,Pritchett,>TL,E,HS,N,R4,D4
-2019/03/03,Estimated,Vail & Summit County,Ethan,Greene,TL,S,SS,N,,D2
-2019/03/03,Estimated,Vail & Summit County,Ethan,Greene,>TL,SE,SS,N,R3,D2.5
-2019/03/03,Estimated,Vail & Summit County,Ethan,Greene,>TL,E,SS,N,R3,D2.5
-2019/03/03,Estimated,Vail & Summit County,Brian,Lazar,>TL,E,SS,N,R2,D2
+2019/03/03,Estimated,Vail and Summit County,Ethan,Greene,TL,S,SS,N,,D2
+2019/03/03,Estimated,Vail and Summit County,Ethan,Greene,>TL,SE,SS,N,R3,D2.5
+2019/03/03,Estimated,Vail and Summit County,Ethan,Greene,>TL,E,SS,N,R3,D2.5
+2019/03/03,Estimated,Vail and Summit County,Brian,Lazar,>TL,E,SS,N,R2,D2
 2019/03/03,Estimated,Gunnison,Eric,Murrow,<TL,N,,N,R2,D2
 2019/03/03,Estimated,Gunnison,Eric,Murrow,TL,NE,,N,R2,D2
 2019/03/03,Estimated,Gunnison,Eric,Murrow,TL,W,,N,R2,D2
 2019/03/03,Estimated,Gunnison,Eric,Murrow,<TL,NW,,N,R2,D2
-2019/03/03,Estimated,Vail & Summit County,B,E,TL,SW,SS,AS,R2,D1.5
+2019/03/03,Estimated,Vail and Summit County,B,E,TL,SW,SS,AS,R2,D1.5
 2019/03/03,Estimated,Northern San Juan,Mark,Mueller,<TL,E,WS,N,R4,D2
 2019/03/03,Estimated,Northern San Juan,Ann,Mellick,<TL,E,SS,AL,R2,D2
 2019/03/03,Known,Northern San Juan,Ann,Mellick,<TL,E,SS,AL,R2,D2
@@ -1023,8 +1023,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/03/02,Known,Northern San Juan,Ann,Mellick,<TL,NW,SS,N,R2,D2
 2019/03/02,Estimated,Sawatch Range,Bethany,Murray,>TL,E,HS,N,R4,D2
 2019/03/02,Estimated,Aspen,Matt,Huber,TL,E,SS,AS,R1,D1
-2019/03/02,Estimated,Steamboat & Flat Tops,Eric,Haskell,<TL,S,SS,AS,R1,D1.5
-2019/03/02,Estimated,Steamboat & Flat Tops,Eric,Haskell,<TL,N,SS,AS,R1,D1
+2019/03/02,Estimated,Steamboat and Flat Tops,Eric,Haskell,<TL,S,SS,AS,R1,D1.5
+2019/03/02,Estimated,Steamboat and Flat Tops,Eric,Haskell,<TL,N,SS,AS,R1,D1
 2019/03/02,Estimated,Front Range,Public,Public,TL,N,WL,AS,R1,D1
 2019/03/01,Estimated,Gunnison,Evan,Ross,TL,E,SS,AS,R1,D2
 2019/03/01,Estimated,Gunnison,Evan,Ross,TL,N,L,AS,R1,D1.5
@@ -1044,16 +1044,16 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/27,Estimated,Aspen,Matt,Huber,TL,W,WL,N,R1,D1.5
 2019/02/27,Estimated,Aspen,Jason,Konigsberg,>TL,SE,U,N,R2,D2
 2019/02/27,Estimated,Aspen,Jason,Konigsberg,>TL,E,SS,N,R1,D1.5
-2019/02/27,Estimated,Vail & Summit County,Becs,Hodgetts,<TL,W,SS,AE,R3,D1.5
-2019/02/26,Known,Vail & Summit County,Adam,Cook,>TL,S,WS,AS,R2,D1.5
+2019/02/27,Estimated,Vail and Summit County,Becs,Hodgetts,<TL,W,SS,AE,R3,D1.5
+2019/02/26,Known,Vail and Summit County,Adam,Cook,>TL,S,WS,AS,R2,D1.5
 2019/02/26,Known,Northern San Juan,Colin,Mitchell,<TL,SE,WL,N,R1,D1.5
 2019/02/26,Known,Northern San Juan,Colin,Mitchell,<TL,SW,WL,N,R1,D1.5
 2019/02/26,Known,Northern San Juan,Colin,Mitchell,<TL,SE,WL,N,R1,D1.5
 2019/02/26,Known,Southern San Juan,Mark,Mueller,<TL,NW,HS,AL,R2,D1.5
 2019/02/26,Known,Southern San Juan,Mark,Mueller,<TL,N,HS,AL,R3,D2
-2019/02/26,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,SW,WL,N,R1,D2
+2019/02/26,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,SW,WL,N,R1,D2
 2019/02/26,Estimated,Sawatch Range,Jason,Konigsberg,>TL,SE,SS,N,R1,D1.5
-2019/02/26,Estimated,Vail & Summit County,Byron,Wolf,>TL,E,HS,U,R1,D1.5
+2019/02/26,Estimated,Vail and Summit County,Byron,Wolf,>TL,E,HS,U,R1,D1.5
 2019/02/26,Estimated,Gunnison,Ben,Pritchett,TL,E,SS,AS,R1,D1.5
 2019/02/26,Estimated,Gunnison,Ben,Pritchett,TL,W,WL,N,R1,D1.5
 2019/02/26,Estimated,Gunnison,Ben,Pritchett,<TL,SW,WL,N,R1,D1.5
@@ -1090,7 +1090,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/24,Estimated,Sangre de Cristo,Mike,Cooperstein,TL,E,SS,U,R2,D2
 2019/02/24,Estimated,Front Range,Michael,Bean,>TL,SW,HS,N,R1,D2
 2019/02/24,Estimated,Front Range,Andy,Hansen,<TL,SE,,N,R2,D1
-2019/02/24,Estimated,Steamboat & Flat Tops,pete,scully,TL,SE,SS,AS,R1,D1
+2019/02/24,Estimated,Steamboat and Flat Tops,pete,scully,TL,SE,SS,AS,R1,D1
 2019/02/24,Estimated,Sawatch Range,Russell,Jungnitsch,TL,NE,,AM,R2,D2
 2019/02/24,Estimated,Northern San Juan,M,Ackerman,>TL,N,SS,N,R2,D2
 2019/02/24,Estimated,Southern San Juan,Chris,Bilbrey,<TL,SW,L,N,R2,D1.5
@@ -1113,8 +1113,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/23,Estimated,Front Range,Jason,Konigsberg,>TL,E,U,N,R1,D1
 2019/02/23,Estimated,Front Range,Jason,Konigsberg,TL,SE,SS,N,R2,D1.5
 2019/02/23,Estimated,Gunnison,Crested Butte,Avalanche Center,>TL,N,,N,,D2.5
-2019/02/23,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,N,SS,N,R1,D2
-2019/02/23,Estimated,Vail & Summit County,Barrett,Langendoerfer,>TL,N,SS,AR,R2,D2
+2019/02/23,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,N,SS,N,R1,D2
+2019/02/23,Estimated,Vail and Summit County,Barrett,Langendoerfer,>TL,N,SS,AR,R2,D2
 2019/02/23,Estimated,Sawatch Range,ANDREW,MADDOX,>TL,W,,,,
 2019/02/23,Estimated,Gunnison,Ben,Pritchett,TL,NW,SS,N,R3,D2.5
 2019/02/23,Estimated,Gunnison,Ben,Pritchett,>TL,NE,SS,N,R2,D2.5
@@ -1145,8 +1145,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/22,Known,Southern San Juan,Mark,Mueller,TL,E,SS,AA,R3,D2
 2019/02/22,Known,Southern San Juan,Mark,Mueller,TL,E,SS,AA,R4,D2.5
 2019/02/22,Known,Southern San Juan,Mark,Mueller,TL,E,SS,AA,R3,D2
-2019/02/22,Estimated,Vail & Summit County,Jason,Konigsberg,TL,E,,N,R2,D1.5
-2019/02/22,Estimated,Vail & Summit County,Jason,Konigsberg,TL,SE,,N,R2,D2
+2019/02/22,Estimated,Vail and Summit County,Jason,Konigsberg,TL,E,,N,R2,D1.5
+2019/02/22,Estimated,Vail and Summit County,Jason,Konigsberg,TL,SE,,N,R2,D2
 2019/02/22,Estimated,Southern San Juan,Nick,Armano,<TL,S,SS,N,R3,D2
 2019/02/22,Estimated,Southern San Juan,Nick,Armano,TL,S,SS,N,R3,D2.5
 2019/02/22,Estimated,Southern San Juan,Nick,Armano,TL,E,SS,N,R4,D2.5
@@ -1168,11 +1168,11 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/22,Estimated,Southern San Juan,Mark,Mueller,<TL,NW,SS,N,R3,D2
 2019/02/22,Estimated,Southern San Juan,Mark,Mueller,<TL,NW,SS,N,R3,D1.5
 2019/02/22,Estimated,Southern San Juan,Mark,Mueller,<TL,W,SS,N,R3,D2
-2019/02/22,Estimated,Vail & Summit County,Jake,Strassman,>TL,NE,HS,N,R2,D2.5
+2019/02/22,Estimated,Vail and Summit County,Jake,Strassman,>TL,NE,HS,N,R2,D2.5
 2019/02/21,Estimated,Aspen,Matt,Huber,>TL,N,HS,N,R2,D2
 2019/02/21,Estimated,Aspen,Jason,Konigsberg,TL,N,HS,N,R1,D2
 2019/02/21,Estimated,Aspen,Jason,Konigsberg,>TL,SW,HS,N,R2,D2.5
-2019/02/21,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,SE,SS,U,R1,D2
+2019/02/21,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,SE,SS,U,R1,D2
 2019/02/21,Known,Northern San Juan,Jeff,Davis,TL,SE,SS,N,R1,D1.5
 2019/02/21,Estimated,Northern San Juan,Jeff,Davis,TL,SE,SS,AL,R1,D1.5
 2019/02/21,Estimated,Northern San Juan,Jeff,Davis,<TL,NE,SS,AE,R2,D2
@@ -1185,20 +1185,20 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/18,Estimated,Northern San Juan,Telluride,Ski Patrol,TL,SW,HS,N,,
 2019/02/18,Estimated,Gunnison,Evan,Ross,<TL,,SS,N,R1,D1
 2019/02/18,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,TL,,,N,R1,D2
-2019/02/18,Estimated,Steamboat & Flat Tops,Dan,Edmiston,<TL,NE,SS,N,R2,D2
+2019/02/18,Estimated,Steamboat and Flat Tops,Dan,Edmiston,<TL,NE,SS,N,R2,D2
 2019/02/17,Estimated,Northern San Juan,Jeff Davis,Chris Bilbrey,TL,NW,SS,N,R1,D1.5
 2019/02/17,Estimated,Gunnison,Evan,Ross,>TL,SE,SS,U,R2,D2
 2019/02/17,Estimated,Gunnison,Evan,Ross,>TL,NE,,U,R2,D2
 2019/02/17,Known,Gunnison,Briant,Wiles,<TL,NE,,U,R2,D1
-2019/02/17,Estimated,Vail & Summit County,Dave,Bourassa,TL,NW,SS,AS,R1,D1
+2019/02/17,Estimated,Vail and Summit County,Dave,Bourassa,TL,NW,SS,AS,R1,D1
 2019/02/17,Estimated,Northern San Juan,John,Carmola,,,SS,AS,,
 2019/02/17,Estimated,Aspen,Brian,Lazar,<TL,E,SS,N,R3,D3
-2019/02/17,Estimated,Vail & Summit County,Jason,Killgore,TL,NW,U,AS,R1,D1
+2019/02/17,Estimated,Vail and Summit County,Jason,Killgore,TL,NW,U,AS,R1,D1
 2019/02/17,Estimated,Sawatch Range,Jason Konigsberg - ,Ethan Greene,TL,SE,SS,N,R2,D2
 2019/02/17,Estimated,Sawatch Range,Jason Konigsberg - ,Ethan Greene,TL,E,U,N,R1,D1
 2019/02/17,Estimated,Sawatch Range,Jason Konigsberg - ,Ethan Greene,>TL,NE,U,N,R1,D1.5
 2019/02/17,Estimated,Aspen,Matt,Huber,>TL,NE,HS,N,R3,D2
-2019/02/17,Estimated,Vail & Summit County,Mike,Cooperstein,>TL,E,HS,N,R2,D2
+2019/02/17,Estimated,Vail and Summit County,Mike,Cooperstein,>TL,E,HS,N,R2,D2
 2019/02/17,Estimated,Front Range,Sean,Fearon,>TL,SE,SS,N,R1,D1
 2019/02/16,Estimated,Aspen,Morgan,Boyles,<TL,NW,SS,N,R4,D2.5
 2019/02/16,Estimated,Aspen,Laura Armstrong and,Carey Favaloro,>TL,NW,HS,N,R3,D2.5
@@ -1229,12 +1229,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/15,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AE,R1,D1.5
 2019/02/15,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AE,R1,D1.5
 2019/02/15,Known,Northern San Juan,Colin,Mitchell,<TL,E,SS,AA,R1,D1.5
-2019/02/15,Known,Vail & Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
-2019/02/15,Known,Vail & Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
-2019/02/15,Known,Vail & Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
-2019/02/15,Known,Vail & Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
+2019/02/15,Known,Vail and Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
+2019/02/15,Known,Vail and Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
+2019/02/15,Known,Vail and Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
+2019/02/15,Known,Vail and Summit County,Ron,Simenhois,<TL,E,SS,AE,R3,D2
 2019/02/15,Known,Northern San Juan,Colin,Mitchell,<TL,NE,SS,AE,R2,D2
-2019/02/15,Known,Vail & Summit County,Ron,Simenhois,<TL,E,SS,AE,R2,D1.5
+2019/02/15,Known,Vail and Summit County,Ron,Simenhois,<TL,E,SS,AE,R2,D1.5
 2019/02/15,Known,Grand Mesa,Brandon,Levy,TL,N,SS,AE,R1,D1.5
 2019/02/15,Known,Grand Mesa,Brandon,Levy,TL,N,SS,AE,R1,D1
 2019/02/15,Known,Grand Mesa,Brandon,Levy,TL,N,SS,AE,R2,D2
@@ -1303,12 +1303,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/15,Known,Northern San Juan,Ann,Mellick,<TL,SE,SS,AL,R3,D2
 2019/02/15,Known,Northern San Juan,Ann,Mellick,<TL,E,SS,AL,R2,D2
 2019/02/15,Known,Northern San Juan,Ann,Mellick,<TL,E,SS,AE,R2,D2
-2019/02/15,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,S,SS,N,R2,D2
+2019/02/15,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,S,SS,N,R2,D2
 2019/02/15,Estimated,Southern San Juan,Colin,Mitchell,>TL,W,SS,N,R2,D2.5
 2019/02/15,Estimated,Northern San Juan,Ann,Mellick,<TL,W,SS,N,R3,D2
 2019/02/15,Estimated,Northern San Juan,Ann,Mellick,TL,E,SS,N,,
 2019/02/15,Estimated,Northern San Juan,Ann,Mellick,TL,NE,SS,N,R3,D2
-2019/02/15,Estimated,Vail & Summit County,Ryan,Simmons,TL,E,SS,U,R2,D1.5
+2019/02/15,Estimated,Vail and Summit County,Ryan,Simmons,TL,E,SS,U,R2,D1.5
 2019/02/15,Estimated,Sawatch Range,Ron,Simenhois,>TL,E,HS,U,R3,D2.5
 2019/02/15,Estimated,Southern San Juan,Mark,Mueller,<TL,N,SS,N,R2,D1.5
 2019/02/15,Estimated,Southern San Juan,Mark,Mueller,<TL,N,SS,N,R3,D1.5
@@ -1339,8 +1339,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/14,Estimated,Northern San Juan,Ann,Mellick,<TL,E,SS,N,R2,D2
 2019/02/14,Estimated,Northern San Juan,Ann,Mellick,<TL,E,SS,N,R2,D2
 2019/02/14,Estimated,Northern San Juan,Ann,Mellick,<TL,SE,SS,N,R2,D2
-2019/02/14,Estimated,Vail & Summit County,Kreston,Rohrig,TL,NE,SS,AS,R1,D1
-2019/02/14,Estimated,Steamboat & Flat Tops,Kreston,Rohrig,<TL,S,SS,AS,R2,D1
+2019/02/14,Estimated,Vail and Summit County,Kreston,Rohrig,TL,NE,SS,AS,R1,D1
+2019/02/14,Estimated,Steamboat and Flat Tops,Kreston,Rohrig,<TL,S,SS,AS,R2,D1
 2019/02/14,Estimated,Grand Mesa,Brandon,Levy,TL,N,SS,N,R1,D1.5
 2019/02/14,Estimated,Grand Mesa,Brandon,Levy,TL,N,SS,N,R2,D2
 2019/02/14,Estimated,Northern San Juan,Casey,Franklin,<TL,NE,SS,AS,R2,D2
@@ -1353,11 +1353,11 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/11,Known,Gunnison,Public - Crested Butte,Avalanche Center,<TL,NE,,AS,R2,D1.5
 2019/02/11,Known,Gunnison,Public - Crested Butte,Avalanche Center,<TL,NE,,AS,R1,D1
 2019/02/10,Known,Aspen,Matt,Huber,>TL,E,HS,AS,R2,D2
-2019/02/10,Known,Vail & Summit County,Devin,Riker,>TL,S,HS,AS,R2,D2
+2019/02/10,Known,Vail and Summit County,Devin,Riker,>TL,S,HS,AS,R2,D2
 2019/02/10,Estimated,Aspen,Matt Huber,Brian Lazar,>TL,NE,HS,N,R3,D2.5
 2019/02/10,Estimated,Gunnison,Public - Crested Butte,Avalanche Center,TL,E,,N,R1,D2
-2019/02/10,Estimated,Vail & Summit County,Trevor,Glavin,>TL,SW,,AS,,
-2019/02/10,Estimated,Steamboat & Flat Tops,Kreston,Rohrig,TL,N,HS,AU,R2,D2
+2019/02/10,Estimated,Vail and Summit County,Trevor,Glavin,>TL,SW,,AS,,
+2019/02/10,Estimated,Steamboat and Flat Tops,Kreston,Rohrig,TL,N,HS,AU,R2,D2
 2019/02/09,Estimated,Northern San Juan,Dustin,Eldridge,>TL,W,HS,AE,R3,D3
 2019/02/09,Estimated,Northern San Juan,Dustin,Eldridge,<TL,NW,SS,N,R1,D1.5
 2019/02/09,Estimated,Sawatch Range,Matt,Huber,>TL,E,HS,N,R4,D2.5
@@ -1385,8 +1385,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/08,Estimated,Gunnison,Ben,Pritchett,>TL,SE,SS,N,R2,D2
 2019/02/08,Estimated,Gunnison,Ben,Pritchett,TL,W,SS,AE,R1,D2
 2019/02/08,Estimated,Gunnison,Ben,Pritchett,<TL,E,SS,N,R3,D3
-2019/02/08,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,SE,SS,N,R1,D1
-2019/02/08,Estimated,Vail & Summit County,Barrett,Langendoerfer,>TL,SE,SS,N,R1,D1
+2019/02/08,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,SE,SS,N,R1,D1
+2019/02/08,Estimated,Vail and Summit County,Barrett,Langendoerfer,>TL,SE,SS,N,R1,D1
 2019/02/08,Estimated,Gunnison,Eric,Murrow,TL,N,,N,R1,D2
 2019/02/08,Estimated,Aspen,Matt,Huber,TL,N,HS,N,R2,D2
 2019/02/08,Estimated,Aspen,Brian,Lazar,>TL,NE,,N,R2,D2
@@ -1422,7 +1422,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/07,Known,Northern San Juan,Ann,Mellick,>TL,SE,SS,AA,R3,D3
 2019/02/07,Known,Northern San Juan,Ann,Mellick,>TL,SE,SS,AA,R3,D2.5
 2019/02/07,Estimated,Northern San Juan,Ann,Mellick,>TL,SE,SS,N,R2,D2
-2019/02/07,Estimated,Vail & Summit County,Brandon,Levy,<TL,NW,SS,N,R2,D2
+2019/02/07,Estimated,Vail and Summit County,Brandon,Levy,<TL,NW,SS,N,R2,D2
 2019/02/07,Known,Northern San Juan,Jeff,Davis,<TL,NE,SS,AA,R2,D2.5
 2019/02/07,Known,Northern San Juan,Jeff,Davis,<TL,NE,SS,AA,R2,D2
 2019/02/07,Known,Northern San Juan,Jeff,Davis,TL,E,SS,AA,R2,D2
@@ -1492,62 +1492,62 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/02/05,Known,Northern San Juan,Colin,Mitchell,TL,NE,SS,AE,R1,D1.5
 2019/02/05,Known,Northern San Juan,Colin,Mitchell,TL,NE,SS,AE,R2,D2
 2019/02/05,Known,Northern San Juan,Jeff,Davis,<TL,E,SS,AE,R2,D2
-2019/02/05,Estimated,Vail & Summit County,Barrett,Langendoerfer,TL,NW,SS,N,R2,D2
+2019/02/05,Estimated,Vail and Summit County,Barrett,Langendoerfer,TL,NW,SS,N,R2,D2
 2019/02/05,Estimated,Northern San Juan,Nolan,Averbuch,TL,W,SS,AS,R1,D1
-2019/02/05,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,S,U,U,R1,D1
-2019/02/05,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,E,U,U,R3,D2
+2019/02/05,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,S,U,U,R1,D1
+2019/02/05,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,E,U,U,R3,D2
 2019/02/05,Estimated,Northern San Juan,Jeff,Davis,<TL,E,SS,AE,R1,D1.5
 2019/02/05,Estimated,Southern San Juan,Mark,Mueller,TL,SE,SS,AA,R2,D2
 2019/02/05,Estimated,Southern San Juan,Mark,Mueller,TL,E,SS,AA,R2,D2
 2019/02/05,Estimated,Southern San Juan,Mark,Mueller,<TL,N,SS,AV,R3,D1
 2019/02/04,Known,Southern San Juan,Mark,Mueller,TL,E,SS,AC,R3,D2
-2019/02/04,Estimated,Vail & Summit County,Brian,Lazar,>TL,E,SS,AM,R1,D2
+2019/02/04,Estimated,Vail and Summit County,Brian,Lazar,>TL,E,SS,AM,R1,D2
 2019/02/04,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,TL,NE,,AS,R1,D1
-2019/02/03,Estimated,Vail & Summit County,Kelli,Rohrig,TL,NW,HS,U,,D2.5
+2019/02/03,Estimated,Vail and Summit County,Kelli,Rohrig,TL,NW,HS,U,,D2.5
 2019/02/03,Known,Southern San Juan,Mark,Mueller,<TL,NE,SS,N,R2,D1.5
-2019/02/03,Estimated,Vail & Summit County,Barrett,Langendoerfer,>TL,SE,SS,N,R1,D1
+2019/02/03,Estimated,Vail and Summit County,Barrett,Langendoerfer,>TL,SE,SS,N,R1,D1
 2019/02/02,Estimated,Northern San Juan,Jeff,Davis,TL,E,L,AR,R1,D1
 2019/02/02,Estimated,Sawatch Range,Becs,Hodgetts,>TL,NE,HS,N,R3,D2.5
 2019/02/02,Estimated,Sawatch Range,Becs,Hodgetts,>TL,NE,HS,N,R2,D2
 2019/02/02,Estimated,Sawatch Range,Becs,Hodgetts,>TL,NE,HS,N,R2,D1.5
 2019/02/02,Estimated,Aspen,Matt,Huber,>TL,N,HS,N,R3,D2.5
-2019/02/01,Estimated,Vail & Summit County,Teague,Holmes,>TL,SE,HS,AS,R2,D2.5
-2019/02/01,Estimated,Vail & Summit County,Dylan,Craaybeek,>TL,SE,HS,N,R2,D2
+2019/02/01,Estimated,Vail and Summit County,Teague,Holmes,>TL,SE,HS,AS,R2,D2.5
+2019/02/01,Estimated,Vail and Summit County,Dylan,Craaybeek,>TL,SE,HS,N,R2,D2
 2019/01/31,Estimated,Sawatch Range,Josiah,Powell,>TL,S,HS,U,R2,D2
-2019/01/31,Estimated,Vail & Summit County,Max,Tyler,>TL,E,HS,AE,R4,D3
+2019/01/31,Estimated,Vail and Summit County,Max,Tyler,>TL,E,HS,AE,R4,D3
 2019/01/31,Estimated,Front Range,Sam,Gifford,TL,SE,HS,AS,R2,D2.5
 2019/01/31,Estimated,Front Range,Mike,Cooperstein,>TL,SE,SS,N,R1,D1
-2019/01/31,Estimated,Vail & Summit County,brad,kremske,>TL,S,HS,N,R1,D1.5
-2019/01/31,Estimated,Vail & Summit County,brad,kremske,>TL,W,HS,N,R2,D2
+2019/01/31,Estimated,Vail and Summit County,brad,kremske,>TL,S,HS,N,R1,D1.5
+2019/01/31,Estimated,Vail and Summit County,brad,kremske,>TL,W,HS,N,R2,D2
 2019/01/31,Estimated,Sawatch Range,Ben,Pritchett,>TL,NE,HS,AE,R2,D2
-2019/01/30,Estimated,Vail & Summit County,Ron,Simenhois,>TL,S,HS,U,R3,D2
+2019/01/30,Estimated,Vail and Summit County,Ron,Simenhois,>TL,S,HS,U,R3,D2
 2019/01/30,Estimated,Gunnison,Eric,Murrow,>TL,S,SS,AS,R2,D2
-2019/01/30,Estimated,Vail & Summit County,ET,McCue,TL,SE,HS,N,R2,D2.5
-2019/01/30,Estimated,Vail & Summit County,Randy,Stout,>TL,E,HS,N,R3,D2
-2019/01/30,Estimated,Vail & Summit County,Randy,Stout,>TL,E,HS,N,R2,D2
-2019/01/30,Estimated,Vail & Summit County,Randy,Stout,>TL,E,SS,N,R2,D1
-2019/01/29,Known,Vail & Summit County,Ron,Simenhois,TL,SE,HS,AE,R3,D1.5
-2019/01/29,Known,Vail & Summit County,Ron,Simenhois,>TL,SE,HS,AE,R3,D2.5
-2019/01/29,Known,Vail & Summit County,Ron,Simenhois,>TL,SE,HS,AE,R3,D2
-2019/01/29,Known,Vail & Summit County,Ron,Simenhois,>TL,SE,HS,AE,R2,D2
+2019/01/30,Estimated,Vail and Summit County,ET,McCue,TL,SE,HS,N,R2,D2.5
+2019/01/30,Estimated,Vail and Summit County,Randy,Stout,>TL,E,HS,N,R3,D2
+2019/01/30,Estimated,Vail and Summit County,Randy,Stout,>TL,E,HS,N,R2,D2
+2019/01/30,Estimated,Vail and Summit County,Randy,Stout,>TL,E,SS,N,R2,D1
+2019/01/29,Known,Vail and Summit County,Ron,Simenhois,TL,SE,HS,AE,R3,D1.5
+2019/01/29,Known,Vail and Summit County,Ron,Simenhois,>TL,SE,HS,AE,R3,D2.5
+2019/01/29,Known,Vail and Summit County,Ron,Simenhois,>TL,SE,HS,AE,R3,D2
+2019/01/29,Known,Vail and Summit County,Ron,Simenhois,>TL,SE,HS,AE,R2,D2
 2019/01/29,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,HS,U,R1,D1.5
-2019/01/29,Estimated,Vail & Summit County,Dylan,Craaybeek,>TL,SE,SS,N,R2,D2
-2019/01/29,Estimated,Vail & Summit County,Kreston,Rohrig,TL,SE,SS,N,R3,D2
-2019/01/29,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,SE,C,N,R1,D1
+2019/01/29,Estimated,Vail and Summit County,Dylan,Craaybeek,>TL,SE,SS,N,R2,D2
+2019/01/29,Estimated,Vail and Summit County,Kreston,Rohrig,TL,SE,SS,N,R3,D2
+2019/01/29,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,SE,C,N,R1,D1
 2019/01/29,Estimated,Front Range,Tom,Holzwarth,,E,,N,,D2
-2019/01/29,Estimated,Vail & Summit County,Demitri,Carahalios,TL,NE,SS,N,R3,D2.5
-2019/01/29,Estimated,Vail & Summit County,Jesse,Yelverton,>TL,E,HS,N,R3,D2.5
+2019/01/29,Estimated,Vail and Summit County,Demitri,Carahalios,TL,NE,SS,N,R3,D2.5
+2019/01/29,Estimated,Vail and Summit County,Jesse,Yelverton,>TL,E,HS,N,R3,D2.5
 2019/01/29,Estimated,Sawatch Range,John,Mackinnon,>TL,E,SS,N,R1,D1
 2019/01/29,Estimated,Sawatch Range,John,Mackinnon,>TL,S,SS,U,R2,D2.5
 2019/01/28,Estimated,Aspen,Matt,Huber,TL,SW,HS,N,R2,D2
 2019/01/28,Estimated,Front Range,Mark,Griffin,TL,NE,,N,,D1
 2019/01/28,Estimated,Front Range,Clark,Thornhill,>TL,SE,,N,R2,D1.5
-2019/01/28,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,NE,SS,N,R2,D2
-2019/01/28,Estimated,Vail & Summit County,Dan,C,<TL,NE,,AR,,D1.5
+2019/01/28,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,NE,SS,N,R2,D2
+2019/01/28,Estimated,Vail and Summit County,Dan,C,<TL,NE,,AR,,D1.5
 2019/01/28,Estimated,Front Range,Tara,Schroeter,<TL,NE,,AS,,
-2019/01/28,Estimated,Vail & Summit County,Daniel,Milchev,>TL,E,HS,AS,R2,D1.5
+2019/01/28,Estimated,Vail and Summit County,Daniel,Milchev,>TL,E,HS,AS,R2,D1.5
 2019/01/28,Estimated,Sawatch Range,Eric,Whip,>TL,E,SS,N,R1,D1
-2019/01/28,Estimated,Vail & Summit County,Ron,Simenhois,>TL,W,HS,U,R3,D1.5
+2019/01/28,Estimated,Vail and Summit County,Ron,Simenhois,>TL,W,HS,U,R3,D1.5
 2019/01/28,Estimated,Front Range,Owen,Richard,TL,NE,HS,AR,R2,D2
 2019/01/27,Estimated,Aspen,Benjamin,Luck,TL,E,SS,N,R1,D1.5
 2019/01/27,Estimated,Aspen,Benjamin,Luck,>TL,N,SS,N,R3,D2.5
@@ -1555,8 +1555,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/27,Estimated,Front Range,Dave,Marcus,>TL,NE,HS,U,R2,D2
 2019/01/27,Estimated,Front Range,Lucas,Mouttet,TL,E,SS,AS,,D1
 2019/01/27,Estimated,Sawatch Range,Mark,Mueller,TL,NW,SS,AM,R2,D2
-2019/01/27,Estimated,Vail & Summit County,Jacob,Vos,<TL,SE,SS,AS,R1,D1
-2019/01/27,Estimated,Vail & Summit County,john,mcinerny,<TL,NE,SS,AM,R2,D2
+2019/01/27,Estimated,Vail and Summit County,Jacob,Vos,<TL,SE,SS,AS,R1,D1
+2019/01/27,Estimated,Vail and Summit County,john,mcinerny,<TL,NE,SS,AM,R2,D2
 2019/01/26,Known,Gunnison,Tom,Schaefer,TL,SE,SS,N,R2,D2
 2019/01/26,Estimated,Sawatch Range,Max Forgensi - ,Jason Konigsberg,>TL,E,,N,R2,D2
 2019/01/26,Estimated,Sawatch Range,Max Forgensi - ,Jason Konigsberg,>TL,NE,,N,R2,D2.5
@@ -1564,12 +1564,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/26,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,TL,SE,HS,AS,R1,D2
 2019/01/26,Estimated,Sawatch Range,Cosmo,Langsfeld,TL,E,SS,N,R1,D1
 2019/01/26,Estimated,Sawatch Range,Steve,Martino,>TL,E,SS,N,R2,D2
-2019/01/26,Estimated,Vail & Summit County,Markian,Feduschak,TL,S,SS,N,R2,D1.5
+2019/01/26,Estimated,Vail and Summit County,Markian,Feduschak,TL,S,SS,N,R2,D1.5
 2019/01/26,Estimated,Aspen,Gabi,Benel,TL,SE,SS,AS,R1,D1.5
 2019/01/26,Estimated,Aspen,Gabi,Benel,TL,NE,HS,N,R2,D2
 2019/01/26,Estimated,Northern San Juan,Jeff,Davis,>TL,SE,SS,N,R2,D2
 2019/01/26,Estimated,Sawatch Range,Zach,Moore,>TL,SE,SS,N,R3,D2
-2019/01/26,Estimated,Vail & Summit County,David,Engdahl,>TL,NE,SS,N,R2,D3
+2019/01/26,Estimated,Vail and Summit County,David,Engdahl,>TL,NE,SS,N,R2,D3
 2019/01/26,Estimated,Gunnison,Eric,Murrow,<TL,E,,,,D2
 2019/01/26,Estimated,Gunnison,Eric,Murrow,>TL,NE,,,R1,D1.5
 2019/01/26,Estimated,Gunnison,Ben,Pritchett,TL,E,SS,N,R2,D2
@@ -1585,12 +1585,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/25,Known,Front Range,Ryan,Zarter,>TL,SE,HS,AX,R3,D2.5
 2019/01/25,Known,Front Range,Ryan,Zarter,>TL,SE,HS,AX,R3,D2
 2019/01/25,Estimated,Sawatch Range,Becs,Hodgetts,TL,E,HS,N,R3,D2
-2019/01/25,Estimated,Vail & Summit County,Douglas,Treiber,>TL,S,SS,N,R2,D2
+2019/01/25,Estimated,Vail and Summit County,Douglas,Treiber,>TL,S,SS,N,R2,D2
 2019/01/25,Estimated,Aspen,Matt,Huber,TL,S,SS,N,R2,D1.5
 2019/01/25,Estimated,Aspen,Angus,Morrison,,,C,,,D1
 2019/01/25,Estimated,Northern San Juan,Scott,Roberts,TL,SW,,AS,R3,D2.5
-2019/01/25,Estimated,Vail & Summit County,Tim,Walsh,>TL,E,HS,AE,R2,D2
-2019/01/25,Known,Vail & Summit County,Tim,Walsh,>TL,E,HS,AE,R3,D3
+2019/01/25,Estimated,Vail and Summit County,Tim,Walsh,>TL,E,HS,AE,R2,D2
+2019/01/25,Known,Vail and Summit County,Tim,Walsh,>TL,E,HS,AE,R3,D3
 2019/01/25,Estimated,Gunnison,Crested Butte,Avalanche Center,>TL,S,SS,N,R1,D2
 2019/01/25,Estimated,Gunnison,Crested Butte,Avalanche Center,TL,NE,SS,N,R3,D2.5
 2019/01/25,Estimated,Gunnison,Steve,Banks,>TL,SE,,,R1,D1.5
@@ -1628,7 +1628,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/23,Estimated,Gunnison,Eric,Murrow,>TL,SW,SS,N,R3,D3
 2019/01/22,Known,Northern San Juan,Jeff,Davis,TL,NW,SS,N,R2,D2
 2019/01/22,Estimated,Aspen,Nathan,Baier,>TL,N,HS,N,R2,D2
-2019/01/22,Estimated,Vail & Summit County,Pierce,Oswick,TL,N,,U,R1,D1.5
+2019/01/22,Estimated,Vail and Summit County,Pierce,Oswick,TL,N,,U,R1,D1.5
 2019/01/22,Estimated,Gunnison,Eric,Murrow,>TL,S,,N,R2,D2
 2019/01/22,Estimated,Front Range,David,Fleischhauer,TL,E,HS,AS,R2,D2
 2019/01/22,Estimated,Northern San Juan,Jeff Davis,Ann Mellick,>TL,NW,HS,N,R2,D2
@@ -1645,16 +1645,16 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/21,Estimated,Aspen,Matt,Huber,>TL,NW,HS,N,R2,D2.5
 2019/01/21,Estimated,Aspen,Kreston,Rohrig,>TL,E,HS,N,R3,D2
 2019/01/21,Estimated,Northern San Juan,Public,Public,TL,,SS,N,,D2
-2019/01/21,Estimated,Vail & Summit County,Jason,Killgore,TL,E,SS,N,R1,D2
+2019/01/21,Estimated,Vail and Summit County,Jason,Killgore,TL,E,SS,N,R1,D2
 2019/01/21,Estimated,Front Range,Hayden,Schuette,TL,SE,HS,AR,R2,D1.5
 2019/01/21,Estimated,Front Range,Will,Howard,>TL,SE,,U,,
 2019/01/21,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,<TL,,,,R2,D1
 2019/01/21,Estimated,Gunnison,Eric,Murrow,>TL,E,,,R2,D2
-2019/01/20,Estimated,Vail & Summit County,Aaron,Carlson,TL,NE,U,N,R2,D2
+2019/01/20,Estimated,Vail and Summit County,Aaron,Carlson,TL,NE,U,N,R2,D2
 2019/01/20,Estimated,Gunnison,Lawson,Yow,TL,SW,,AS,R1,D1
-2019/01/20,Estimated,Vail & Summit County,chris,baldwin,TL,W,SS,AS,R1,D1
+2019/01/20,Estimated,Vail and Summit County,chris,baldwin,TL,W,SS,AS,R1,D1
 2019/01/20,Estimated,Front Range,Colin,Trettel,>TL,E,HS,N,R2,D2
-2019/01/20,Estimated,Vail & Summit County,Brad,Kovalchick,>TL,E,,N,R2,D2.5
+2019/01/20,Estimated,Vail and Summit County,Brad,Kovalchick,>TL,E,,N,R2,D2.5
 2019/01/20,Estimated,Northern San Juan,Chris,Bilbrey,TL,N,SS,N,R2,D2
 2019/01/20,Estimated,Northern San Juan,Chris,Bilbrey,>TL,N,SS,N,R2,D2
 2019/01/20,Estimated,Northern San Juan,Chris,Bilbrey,>TL,W,SS,N,R2,D2
@@ -1666,7 +1666,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/20,Estimated,Aspen,Matt,Huber,<TL,NW,SS,N,R2,D1
 2019/01/20,Estimated,Aspen,Matt,Huber,<TL,NW,SS,N,R2,D2
 2019/01/20,Estimated,Aspen,Nick,Springstead,TL,SE,SS,AS,R1,D1
-2019/01/20,Estimated,Steamboat & Flat Tops,Jason,Russell,<TL,N,SS,AM,R1,D1.5
+2019/01/20,Estimated,Steamboat and Flat Tops,Jason,Russell,<TL,N,SS,AM,R1,D1.5
 2019/01/20,Estimated,Southern San Juan,Michael,Remke,,N,,N,R2,D2
 2019/01/20,Estimated,Sawatch Range,Becs,Hodgetts,TL,E,HS,N,R1,D1
 2019/01/19,Known,Sawatch Range,Becs,Hodgetts,<TL,E,SS,AE,R3,D1.5
@@ -1698,9 +1698,9 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/19,Known,Front Range,Ryan,Zarter,>TL,NW,HS,AL,R3,D2.5
 2019/01/19,Known,Front Range,Ryan,Zarter,>TL,NW,HS,AL,R2,D1.5
 2019/01/19,Known,Northern San Juan,Colin,Mitchell,TL,E,SS,AL,R2,D1.5
-2019/01/19,Estimated,Vail & Summit County,Chuck,McQuade,>TL,S,SS,N,U,U
+2019/01/19,Estimated,Vail and Summit County,Chuck,McQuade,>TL,S,SS,N,U,U
 2019/01/19,Estimated,Northern San Juan,Jeff,Davis,>TL,SE,SS,AA,R2,D2
-2019/01/19,Estimated,Vail & Summit County,Jason,Killgore,TL,NE,SS,N,R2,D2
+2019/01/19,Estimated,Vail and Summit County,Jason,Killgore,TL,NE,SS,N,R2,D2
 2019/01/19,Estimated,Aspen,Brian,Lazar,<TL,E,SS,AS,R2,D1
 2019/01/19,Estimated,Aspen,Brian,Lazar,>TL,NE,HS,N,R3,D3
 2019/01/19,Estimated,Northern San Juan,Ann,Mellick,<TL,W,SS,N,R2,D2
@@ -1776,7 +1776,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/18,Estimated,Southern San Juan,Chris Bilbrey - ,Jason Konigsberg,<TL,NE,,N,R3,D3
 2019/01/18,Estimated,Southern San Juan,Chris Bilbrey - ,Jason Konigsberg,<TL,N,SS,N,R2,D2
 2019/01/18,Estimated,Southern San Juan,Chris Bilbrey - ,Jason Konigsberg,TL,NE,SS,N,R3,D2
-2019/01/18,Estimated,Gunnison,Eric & Zach,Murrow & Kinler,TL,NE,,,R2,D2
+2019/01/18,Estimated,Gunnison,Eric and Zach,Murrow and Kinler,TL,NE,,,R2,D2
 2019/01/18,Estimated,Southern San Juan,Chris,Bilbrey,>TL,NE,SS,N,R3,D2
 2019/01/18,Estimated,Southern San Juan,Chris,Bilbrey,TL,N,SS,N,R2,D2
 2019/01/18,Estimated,Northern San Juan,Jeff,Davis,TL,E,SS,N,R2,D2
@@ -1784,12 +1784,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/18,Estimated,Southern San Juan,Ian,Altman,>TL,E,HS,N,R4,D3
 2019/01/18,Estimated,Northern San Juan,Jeff,Davis,<TL,NE,SS,AE,R2,D2
 2019/01/18,Estimated,Northern San Juan,Jeff,Davis,TL,SE,SS,AL,R1,D1.5
-2019/01/18,Estimated,Vail & Summit County,Pierce,Oswick,TL,N,SS,U,R2,D2
+2019/01/18,Estimated,Vail and Summit County,Pierce,Oswick,TL,N,SS,U,R2,D2
 2019/01/18,Estimated,Southern San Juan,Jesse,Morehouse,<TL,N,SS,N,R2,D2
-2019/01/18,Estimated,Gunnison,Zach & Eric,Kinler & Murrow,<TL,W,SS,N,R2,D2
-2019/01/18,Estimated,Gunnison,Zach & Eric,Kinler & Murrow,<TL,E,SS,N,R2,D1.5
-2019/01/18,Estimated,Gunnison,Zach & Eric,Kinler & Murrow,<TL,NE,SS,N,R2,D1
-2019/01/18,Estimated,Gunnison,Zach & Eric,Kinler & Murrow,<TL,NE,SS,N,R2,D1.5
+2019/01/18,Estimated,Gunnison,Zach and Eric,Kinler and Murrow,<TL,W,SS,N,R2,D2
+2019/01/18,Estimated,Gunnison,Zach and Eric,Kinler and Murrow,<TL,E,SS,N,R2,D1.5
+2019/01/18,Estimated,Gunnison,Zach and Eric,Kinler and Murrow,<TL,NE,SS,N,R2,D1
+2019/01/18,Estimated,Gunnison,Zach and Eric,Kinler and Murrow,<TL,NE,SS,N,R2,D1.5
 2019/01/18,Estimated,Northern San Juan,Ann,Mellick,>TL,E,SS,N,R3,D2.5
 2019/01/18,Estimated,Northern San Juan,Ann,Mellick,>TL,E,SS,N,R3,D2
 2019/01/18,Estimated,Northern San Juan,Ann,Mellick,>TL,S,SS,N,R2,D2
@@ -1803,15 +1803,15 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/18,Estimated,Northern San Juan,Chris,Bilbrey,>TL,NE,SS,N,R3,D2
 2019/01/18,Estimated,Northern San Juan,Chris,Bilbrey,>TL,NE,SS,N,R2,D2.5
 2019/01/18,Estimated,Northern San Juan,Chris,Bilbrey,TL,SE,SS,N,R2,D2
-2019/01/18,Estimated,Vail & Summit County,Kreston,Rohrig,TL,SE,SS,AS,R2,D2
+2019/01/18,Estimated,Vail and Summit County,Kreston,Rohrig,TL,SE,SS,AS,R2,D2
 2019/01/18,Estimated,Front Range,Drew,Thayer,>TL,NE,SS,,R3,D1.5
-2019/01/18,Estimated,Vail & Summit County,Mike,Soucy,>TL,SE,SS,U,R2,D2
-2019/01/18,Estimated,Vail & Summit County,teague,holmes,<TL,SE,SS,AS,R2,D1.5
+2019/01/18,Estimated,Vail and Summit County,Mike,Soucy,>TL,SE,SS,U,R2,D2
+2019/01/18,Estimated,Vail and Summit County,teague,holmes,<TL,SE,SS,AS,R2,D1.5
 2019/01/18,Estimated,Northern San Juan,Colin,Mitchell,TL,SE,SS,N,R2,D2
 2019/01/18,Estimated,Northern San Juan,Colin,Mitchell,>TL,S,SS,N,R2,D2
 2019/01/18,Estimated,Northern San Juan,Colin,Mitchell,>TL,S,SS,N,R2,D2
 2019/01/18,Estimated,Northern San Juan,Colin,Mitchell,>TL,SE,HS,N,R2,D2.5
-2019/01/18,Estimated,Steamboat & Flat Tops,Cody,Perry,<TL,E,SS,N,R4,D2
+2019/01/18,Estimated,Steamboat and Flat Tops,Cody,Perry,<TL,E,SS,N,R4,D2
 2019/01/18,Estimated,Gunnison,Ben,Pritchett,<TL,E,SS,N,R2,D2
 2019/01/18,Estimated,Gunnison,Ben,Pritchett,TL,N,SS,N,R2,D2
 2019/01/18,Estimated,Gunnison,Ben,Pritchett,TL,SE,SS,N,R1,D2
@@ -1835,8 +1835,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/18,Estimated,Northern San Juan,Ann,Mellick,<TL,NW,SS,AL,R2,D2
 2019/01/18,Estimated,Northern San Juan,Ann,Mellick,<TL,NW,SS,AL,R2,D2
 2019/01/18,Estimated,Gunnison,Aaron,Carlson,TL,E,SS,N,R3,D2
-2019/01/18,Estimated,Vail & Summit County,Ron,Simenhois,>TL,N,SS,N,R3,D2.5
-2019/01/18,Estimated,Steamboat & Flat Tops,Eric,Deering,<TL,SE,SS,AS,R4,D2.5
+2019/01/18,Estimated,Vail and Summit County,Ron,Simenhois,>TL,N,SS,N,R3,D2.5
+2019/01/18,Estimated,Steamboat and Flat Tops,Eric,Deering,<TL,SE,SS,AS,R4,D2.5
 2019/01/18,Estimated,Southern San Juan,Wolf Creek Ski Patrol,Snow Safety,TL,N,SS,N,R3,D2
 2019/01/18,Estimated,Southern San Juan,Wolf Creek Ski Patrol,Snow Safety,>TL,N,HS,AE,R4,D2.5
 2019/01/18,Known,Sawatch Range,Jason Konigsberg - ,Ethan Greene,TL,E,SS,AM,R2,D2
@@ -1893,19 +1893,19 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/17,Estimated,Gunnison,Ben,Pritchett,>TL,S,SS,N,R2,D3
 2019/01/17,Estimated,Gunnison,Ben,Pritchett,>TL,S,SS,N,R2,D2.5
 2019/01/17,Estimated,Gunnison,Ben,Pritchett,>TL,SE,SS,N,R2,D2.5
-2019/01/17,Estimated,Vail & Summit County,Todd,Jones,>TL,NE,SS,U,R1,D1
-2019/01/17,Estimated,Vail & Summit County,Greg,Morgano,TL,E,SS,N,R1,D1.5
-2019/01/17,Estimated,Vail & Summit County,Greg,Morgano,TL,E,SS,N,R2,D2
-2019/01/17,Estimated,Steamboat & Flat Tops,Lucas,Strickland,<TL,SE,SS,AS,R2,D1
-2019/01/17,Estimated,Steamboat & Flat Tops,Eric,Deering,<TL,N,SS,N,R4,D2
+2019/01/17,Estimated,Vail and Summit County,Todd,Jones,>TL,NE,SS,U,R1,D1
+2019/01/17,Estimated,Vail and Summit County,Greg,Morgano,TL,E,SS,N,R1,D1.5
+2019/01/17,Estimated,Vail and Summit County,Greg,Morgano,TL,E,SS,N,R2,D2
+2019/01/17,Estimated,Steamboat and Flat Tops,Lucas,Strickland,<TL,SE,SS,AS,R2,D1
+2019/01/17,Estimated,Steamboat and Flat Tops,Eric,Deering,<TL,N,SS,N,R4,D2
 2019/01/17,Estimated,Sawatch Range,Ben,Pritchett,>TL,SE,SS,N,R1,D2
 2019/01/17,Estimated,Sawatch Range,Ben,Pritchett,>TL,W,SS,N,R1,D2
 2019/01/17,Estimated,Sawatch Range,Ben,Pritchett,>TL,N,SS,N,R1,D2
 2019/01/17,Estimated,Sawatch Range,Ben,Pritchett,>TL,E,SS,N,R1,D2
 2019/01/17,Estimated,Southern San Juan,Public,,<TL,NE,SS,AS,R2,D2
 2019/01/17,Estimated,Northern San Juan,Vince,Anderson,>TL,N,HS,N,R3,D3
-2019/01/17,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,S,SS,N,R2,D1.5
-2019/01/17,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,SE,SS,AS,R2,D1.5
+2019/01/17,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,S,SS,N,R2,D1.5
+2019/01/17,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,SE,SS,AS,R2,D1.5
 2019/01/17,Estimated,Aspen,Nick,Springstead,>TL,E,SS,N,R2,D1
 2019/01/17,Estimated,Aspen,Nick,Springstead,>TL,E,SS,N,R2,D2
 2019/01/17,Estimated,Aspen,Matt,Huber,<TL,NE,SS,N,R2,D1.5
@@ -1913,9 +1913,9 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/17,Estimated,Aspen,Matt,Huber,>TL,NE,HS,N,R3,D2.5
 2019/01/17,Estimated,Northern San Juan,Jeff Davis,Ann Mellick,>TL,NW,HS,N,R3,D2.5
 2019/01/17,Estimated,Sawatch Range,Jason Konigsberg - ,Max Forgensi,TL,E,HS,U,R2,D2
-2019/01/17,Estimated,Vail & Summit County,Carter,Spencer,>TL,S,SS,N,R3,D1
-2019/01/17,Estimated,Vail & Summit County,A-Basin,Ski Patrol,>TL,SW,SS,N,R2,D2
-2019/01/17,Estimated,Vail & Summit County,Chris,Cringle,TL,E,SS,AS,R2,D1.5
+2019/01/17,Estimated,Vail and Summit County,Carter,Spencer,>TL,S,SS,N,R3,D1
+2019/01/17,Estimated,Vail and Summit County,A-Basin,Ski Patrol,>TL,SW,SS,N,R2,D2
+2019/01/17,Estimated,Vail and Summit County,Chris,Cringle,TL,E,SS,AS,R2,D1.5
 2019/01/17,Estimated,Northern San Juan,Ann,Mellick,>TL,SE,SS,N,R2,D2
 2019/01/17,Known,Northern San Juan,Ann Mellick,Jeff Davis,>TL,SE,SS,N,R2,D2
 2019/01/17,Estimated,Front Range,Ron,Simenhois,>TL,SE,HS,N,R3,D2.5
@@ -1929,7 +1929,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/16,Estimated,Aspen,Everett,Phillips,TL,W,,N,,
 2019/01/16,Estimated,Gunnison,(Ian Havlick) Crested Butte,Avalanche Center,,SW,,N,R1,D2
 2019/01/16,Estimated,Northern San Juan,Patrick,Ormond,,NW,HS,U,R2,D3
-2019/01/16,Estimated,Vail & Summit County,Joe,Vandal,TL,NW,SS,AS,R1,D1.5
+2019/01/16,Estimated,Vail and Summit County,Joe,Vandal,TL,NW,SS,AS,R1,D1.5
 2019/01/16,Estimated,Southern San Juan,Chris,Bilbrey,TL,NW,SS,N,R1,D1
 2019/01/16,Estimated,Southern San Juan,Chris,Bilbrey,<TL,NW,SS,N,R3,D2.5
 2019/01/16,Estimated,Southern San Juan,Chris,Bilbrey,TL,NE,SS,N,R2,D2
@@ -1964,12 +1964,12 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/14,Estimated,Front Range,Wilson,Rawlings,,NE,L,N,R1,D1.5
 2019/01/13,Known,Sawatch Range,Ryan,Zarter,TL,W,SS,U,R1,D1
 2019/01/13,Estimated,Southern San Juan,Mark,Mueller,<TL,SE,SS,N,R3,D2
-2019/01/13,Known,Vail & Summit County,Demitri,Carahalios,TL,NE,HS,AS,R2,D1.5
-2019/01/13,Estimated,Vail & Summit County,Zac,Potterfield,>TL,E,SS,N,R1,D1.5
+2019/01/13,Known,Vail and Summit County,Demitri,Carahalios,TL,NE,HS,AS,R2,D1.5
+2019/01/13,Estimated,Vail and Summit County,Zac,Potterfield,>TL,E,SS,N,R1,D1.5
 2019/01/13,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,<TL,NE,,AS,R2,D1
-2019/01/13,Estimated,Steamboat & Flat Tops,Michael,Corson,<TL,NE,,,,
-2019/01/13,Estimated,Steamboat & Flat Tops,Michael,Corson,TL,NW,HS,AM,R1,D1
-2019/01/13,Estimated,Vail & Summit County,Andrew,McWilliams,TL,W,SS,AS,R2,D2
+2019/01/13,Estimated,Steamboat and Flat Tops,Michael,Corson,<TL,NE,,,,
+2019/01/13,Estimated,Steamboat and Flat Tops,Michael,Corson,TL,NW,HS,AM,R1,D1
+2019/01/13,Estimated,Vail and Summit County,Andrew,McWilliams,TL,W,SS,AS,R2,D2
 2019/01/13,Estimated,Sawatch Range,Robin,NeJame,TL,,HS,AR,,D1
 2019/01/13,Estimated,Southern San Juan,Chris,Bilbrey,TL,SE,SS,N,R3,D2
 2019/01/13,Estimated,Aspen,Gabi,Benel,>TL,NW,SS,N,R2,D1.5
@@ -1979,7 +1979,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/12,Estimated,Gunnison,Eric,Murrow and Ben Pritchett,<TL,SE,SS,AM,R2,D1
 2019/01/12,Estimated,Gunnison,Eric,Murrow and Ben Pritchett,<TL,SE,SS,N,R2,D1
 2019/01/12,Estimated,Southern San Juan,Jesse,Kindred,<TL,NE,SS,AS,R2,D2
-2019/01/12,Estimated,Vail & Summit County,Brian,Binge,TL,E,HS,AM,R2,D2
+2019/01/12,Estimated,Vail and Summit County,Brian,Binge,TL,E,HS,AM,R2,D2
 2019/01/12,Estimated,Southern San Juan,Matt,Entz,TL,NE,SS,AM,R2,D2
 2019/01/12,Estimated,Southern San Juan,Matt,Entz,<TL,,SS,AM,R1,D1
 2019/01/12,Estimated,Aspen,Joey,Giampaolo,<TL,NE,SS,AS,R1,D1
@@ -1992,24 +1992,24 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/12,Estimated,Gunnison,Ben,Pritchett,TL,NW,SS,AE,R2,D2
 2019/01/12,Estimated,Gunnison,Ben,Pritchett,TL,N,SS,AE,R2,D2
 2019/01/11,Known,Aspen,Scott,Kramer,<TL,NW,,AS,R2,D2
-2019/01/11,Estimated,Steamboat & Flat Tops,Kreston,Rohrig,>TL,NE,C,U,R2,D1.5
+2019/01/11,Estimated,Steamboat and Flat Tops,Kreston,Rohrig,>TL,NE,C,U,R2,D1.5
 2019/01/11,Estimated,Gunnison,Lawson,Yow,<TL,NE,SS,AS,R1,D1.5
 2019/01/11,Estimated,Southern San Juan,Josh,Kling,<TL,NE,SS,AS,R2,D1.5
-2019/01/11,Estimated,Vail & Summit County,Joe,Szasz,TL,NE,SS,AS,R1,D1
+2019/01/11,Estimated,Vail and Summit County,Joe,Szasz,TL,NE,SS,AS,R1,D1
 2019/01/11,Estimated,Gunnison,Evan,Ross,<TL,E,SS,AS,R1,D2
 2019/01/10,Estimated,Sawatch Range,Rich,Rogers,TL,NE,SS,AS,R1,D2
-2019/01/10,Estimated,Vail & Summit County,Paul,Haraf,TL,NE,SS,N,R2,D2
+2019/01/10,Estimated,Vail and Summit County,Paul,Haraf,TL,NE,SS,N,R2,D2
 2019/01/10,Estimated,Gunnison,Tom,Schaefer,TL,NE,SS,AE,R1,D2
 2019/01/10,Known,Northern San Juan,Drew,Gibson,TL,N,SS,AS,R1,D1
 2019/01/10,Estimated,Southern San Juan,Chris,Bilbrey,TL,NE,SS,N,R2,D2
 2019/01/10,Estimated,Northern San Juan,skippie,zeller,>TL,N,HS,N,R2,D2.5
 2019/01/10,Estimated,Northern San Juan,skippie,zeller,>TL,N,HS,N,R2,D2
 2019/01/10,Estimated,Northern San Juan,skippie,zeller,TL,N,HS,N,R2,D2
-2019/01/10,Estimated,Vail & Summit County,Kreston,Rohrig,TL,W,HS,N,R3,D3
+2019/01/10,Estimated,Vail and Summit County,Kreston,Rohrig,TL,W,HS,N,R3,D3
 2019/01/09,Estimated,Southern San Juan,Mark,Mueller,TL,SE,SS,N,R4,D2
 2019/01/09,Estimated,Southern San Juan,Mark,Mueller,TL,W,SS,N,R3,D2
 2019/01/09,Estimated,Sawatch Range,David,Engdahl,TL,E,SS,AS,R1,D1.5
-2019/01/09,Estimated,Vail & Summit County,Nick,Basica,>TL,E,,,,
+2019/01/09,Estimated,Vail and Summit County,Nick,Basica,>TL,E,,,,
 2019/01/09,Estimated,Southern San Juan,Chris,Bilbrey,TL,W,SS,N,R1,D1.5
 2019/01/09,Estimated,Southern San Juan,Matt,Entz,<TL,E,SS,AM,R2,D1
 2019/01/09,Estimated,Front Range,Sean,Fontaine,>TL,E,,N,R2,D2
@@ -2034,7 +2034,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/08,Estimated,Sawatch Range,Jason,Konigsberg,>TL,NE,,N,R1,D1
 2019/01/08,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,,N,R1,D1
 2019/01/08,Estimated,Sawatch Range,Jason,Konigsberg,>TL,E,,N,R1,D1
-2019/01/08,Estimated,Vail & Summit County,Kerry,Kuntz,TL,NE,HS,N,R2,D2
+2019/01/08,Estimated,Vail and Summit County,Kerry,Kuntz,TL,NE,HS,N,R2,D2
 2019/01/08,Estimated,Sawatch Range,Ron,Simenhois,>TL,NE,SS,N,R3,D1.5
 2019/01/08,Estimated,Sawatch Range,Ron,Simenhois,TL,E,SS,U,R3,D2
 2019/01/08,Estimated,Northern San Juan,Derek,Nunner,<TL,NE,SS,AS,R2,D1.5
@@ -2097,11 +2097,11 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/07,Estimated,Gunnison,Eric,Murrow,<TL,NE,SS,U,R1,D1
 2019/01/07,Estimated,Gunnison,Tom,Schaefer,<TL,NW,SS,AS,R3,D2
 2019/01/07,Estimated,Gunnison,Tom,Schaefer,TL,NE,SS,AE,R1,D1
-2019/01/07,Estimated,Vail & Summit County,Scott,Eubank,>TL,SW,L,N,,D1
+2019/01/07,Estimated,Vail and Summit County,Scott,Eubank,>TL,SW,L,N,,D1
 2019/01/07,Estimated,Gunnison,Evan,Ross,,NE,,N,,D2.5
 2019/01/07,Estimated,Gunnison,Evan,Ross,,SW,SS,AS,R2,D2
 2019/01/07,Estimated,Gunnison,Evan,Ross,,SW,SS,AS,R1,D1
-2019/01/07,Estimated,Steamboat & Flat Tops,Eric,Haskell,<TL,,,,,D1
+2019/01/07,Estimated,Steamboat and Flat Tops,Eric,Haskell,<TL,,,,,D1
 2019/01/07,Estimated,Front Range,michael,lyons,<TL,E,SS,AR,R2,D1.5
 2019/01/07,Estimated,Front Range,Ron,Simenhois,>TL,N,SS,AX,R3,D2.5
 2019/01/07,Estimated,Gunnison,Ben,Pritchett,<TL,E,SS,N,R2,D2
@@ -2119,7 +2119,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/07,Known,Northern San Juan,Ann,Mellick,<TL,W,SS,AL,R2,D2
 2019/01/07,Known,Northern San Juan,Ann,Mellick,<TL,W,SS,AE,R2,D2
 2019/01/07,Known,Northern San Juan,Ann,Mellick,<TL,N,SS,AE,R2,D1.5
-2019/01/06,Known,Vail & Summit County,Gus,Wagner,>TL,S,,N,R2,D2
+2019/01/06,Known,Vail and Summit County,Gus,Wagner,>TL,S,,N,R2,D2
 2019/01/06,Estimated,Northern San Juan,Jeff,Davis,>TL,SE,SS,N,R2,D2
 2019/01/06,Estimated,Northern San Juan,Jeff,Davis,>TL,NE,SS,N,R2,D2
 2019/01/06,Estimated,Northern San Juan,Jeff,Davis,>TL,NW,SS,N,R2,D2
@@ -2149,7 +2149,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/05,Estimated,Gunnison,Ben,Pritchett,>TL,E,SS,AM,R2,D2.5
 2019/01/04,Known,Southern San Juan,Mark,Mueller,TL,E,SS,AS,R3,D2.5
 2019/01/04,Known,Southern San Juan,Mark,Mueller,TL,E,L,AS,R2,D2
-2019/01/04,Estimated,Steamboat & Flat Tops,Dan,Edmiston,<TL,SE,WL,N,,
+2019/01/04,Estimated,Steamboat and Flat Tops,Dan,Edmiston,<TL,SE,WL,N,,
 2019/01/04,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,,,L,,,D1
 2019/01/04,Estimated,Gunnison,(Public) Crested Butte,Avalanche Center,>TL,,L,N,,D1
 2019/01/04,Estimated,Northern San Juan,Amy,Pertuz,>TL,W,SS,N,R1,D1
@@ -2166,8 +2166,8 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/03,Estimated,Northern San Juan,Matt,Steen,>TL,NE,HS,N,R2,D2
 2019/01/03,Estimated,Northern San Juan,Matt,Steen,>TL,NE,SS,N,R2,D2
 2019/01/03,Estimated,Southern San Juan,Chris Bilbrey,Jeff Davis,>TL,SE,SS,N,R2,D2
-2019/01/03,Estimated,Vail & Summit County,Kreston,Rohrig,>TL,E,SS,AS,R1,D1
-2019/01/03,Estimated,Vail & Summit County,Jason,Konigsberg,>TL,SE,L,N,R1,D1
+2019/01/03,Estimated,Vail and Summit County,Kreston,Rohrig,>TL,E,SS,AS,R1,D1
+2019/01/03,Estimated,Vail and Summit County,Jason,Konigsberg,>TL,SE,L,N,R1,D1
 2019/01/03,Estimated,Northern San Juan,Colin,Mitchell,<TL,W,SS,N,R1,D1.5
 2019/01/03,Estimated,Southern San Juan,Colin,Mitchell,>TL,W,HS,N,R2,D2
 2019/01/02,Known,Sawatch Range,Ben,Pritchett,>TL,W,SS,N,R1,D2
@@ -2191,7 +2191,7 @@ date,date_precision,zone_name,first_name,last_name,elevation,aspect,type,trigger
 2019/01/02,Estimated,Northern San Juan,Jeremy,Yanko,TL,,SS,AS,R2,D2
 2019/01/02,Estimated,Sawatch Range,Walker,Lutz,>TL,E,HS,AS,R2,D2
 2019/01/02,Estimated,Sawatch Range,Becs,Hodgetts,>TL,N,HS,N,R2,D2
-2019/01/01,Estimated,Vail & Summit County,Jason,Konigsberg,TL,NW,,N,R2,D2
+2019/01/01,Estimated,Vail and Summit County,Jason,Konigsberg,TL,NW,,N,R2,D2
 2019/01/01,Estimated,Aspen,Brandon Levy,Matt Huber,TL,E,HS,N,R1,D1
 2019/01/01,Estimated,Northern San Juan,Eddie,Degitis,>TL,SW,SS,N,R1,D1.5
 2019/01/01,Estimated,Northern San Juan,Matt,Steen,>TL,SW,HS,N,R2,D2

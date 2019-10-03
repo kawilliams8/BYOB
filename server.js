@@ -20,18 +20,36 @@ app.listen(app.get("port"), () => {
   );
 });
 
-export const avalanches = [];
-fs.createReadStream("avalanches.csv")
-  .pipe(csv())
-  .on("data", data => avalanches.push(data))
-  .on("end", () => {
-    console.log(avalanches);
-  });
+const parseAvalanches = () => {
+  const avalancheData = [];
+  fs.createReadStream("avalanches.csv")
+    .pipe(csv())
+    .on("data", data => avalancheData.push(data))
+    .on("end", () => {
+      return avalancheData;
+    });
+}
 
-export const forecast_zones = [];
-fs.createReadStream("forecast_zones.csv")
-  .pipe(csv())
-  .on("data", data => forecast_zones.push(data))
-  .on("end", () => {
-    console.log(forecast_zones);
-  });
+const parseForecastZones = () => {
+  const forecastZoneData = [];
+  fs.createReadStream("forecast_zones.csv")
+    .pipe(csv())
+    .on("data", data => forecastZoneData.push(data))
+    .on("end", () => {
+      return forecastZoneData;
+    });
+}
+
+const combinedData = async () => {
+  let avalanches = parseAvalanches();
+  let zones = parseForecastZones();
+  return await zones.map(zone => {
+    zone.avalanches = avalanches.filter(
+      avalanche => avalanche.zone_name === zone.zone_name
+    );
+    return zone;
+  })
+  .catch(error => console.log('ERROR!!!', error))
+};
+
+console.log('trying to combine', combinedData())
