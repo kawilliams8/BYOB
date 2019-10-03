@@ -40,7 +40,29 @@ app.get("/api/v1/avalanches/:id", (request, response) => {
     .select()
     .then(avalanches => avalanches.find(avalanche => avalanche.id === id))
     .then(avalanche => {
-        response.status(200).json({ avalanche });
+      response.status(200).json({ avalanche });
+    })
+    .catch(error => {
+      response.status(500).json({ error });
+    });
+});
+
+app.post("/api/v1/avalanches", (request, response) => {
+  const avalanche = request.body;
+
+  for (let requiredParameter of ["date", "date_precision", "first_name", "last_name", "elevation", "aspect", "type", "trigger", "release_size", "destructive_size"]) {
+
+    if (!avalanche[requiredParameter]) {
+      return response.status(422).send({
+        error: `Expected format: { date: <String>, date_precision: <String>, first_name: <String>, last_name: <String>, elevation: <String>, aspect: <String>, type: <String>, trigger: <String>, release_size: <String>, destructive_size: <String> }. You're missing a "${requiredParameter}" property.`
+      });
+    }
+  }
+
+  database("avalanches")
+    .insert(avalanche, "id")
+    .then(avalanche => {
+      response.status(201).json({ id: avalanche[0] });
     })
     .catch(error => {
       response.status(500).json({ error });
@@ -60,14 +82,41 @@ app.get("/api/v1/forecast_zones", (request, response) => {
 
 app.get("/api/v1/forecast_zones/:id", (request, response) => {
   const id = parseInt(request.params.id);
-  
+
   database("forecast_zones")
     .select()
-    .then(forecast_zones => forecast_zones.find(forecast_zone => forecast_zone.id === id))
+    .then(forecast_zones =>
+      forecast_zones.find(forecast_zone => forecast_zone.id === id)
+    )
     .then(forecast_zone => {
-        response.status(200).json({ forecast_zone });
+      response.status(200).json({ forecast_zone });
     })
     .catch(error => {
       response.status(500).json({ error });
+    });
+});
+
+app.post("/api/v1/forecast_zones", (request, response) => {
+  const forecast_zone = request.body;
+
+  for (let requiredParameter of ["zone", "nearby_city", "land_features"]) {
+    if (!forecast_zone[requiredParameter]) {
+      return response.status(422).send({
+        error: `Expected format: { zone: <String>, nearby_city: <String>, land_features: <String> }. Add a "${requiredParameter}" property.`
+      });
+    }
+  }
+
+  database("forecast_zones")
+    .insert(forecast_zone, "id")
+    .then(forecast_zone => {
+      response.status(201).json({
+        id: forecast_zone[0]
+      });
+    })
+    .catch(error => {
+      response.status(500).json({
+        error
+      });
     });
 });
