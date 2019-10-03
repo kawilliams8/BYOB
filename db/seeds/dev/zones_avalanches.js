@@ -1,19 +1,18 @@
-import { combinedData } from '../../../server';
+const combinedData = require("../../combinedData");
 
-const createForecastZone = (knex, forecast_zone) => {
+const createZones = (knex, zone) => {
   return knex("forecast_zones")
     .insert(
       {
-        zone_name: forecast_zone.zone_name,
-        nearby_city: forecast_zone.nearby_city,
-        land_features: forecast_zone.land_features
+        nearby_city: zone.nearby_city,
+        land_features: zone.land_features
       },
       "id"
     )
     .then(zoneId => {
       let avalanchePromises = [];
 
-      forecast_zone.avalanches.forEach(avalanche => {
+      zone.avalanches.forEach(avalanche => {
         avalanchePromises.push(
           createAvalanche(knex, {
             date: avalanche.date,
@@ -25,8 +24,8 @@ const createForecastZone = (knex, forecast_zone) => {
             type: avalanche.type,
             trigger: avalanche.trigger,
             release_size: avalanche.release_size,
-            destructive_size: avalanche.destructive_size,
-            forecast_zone_id: zoneId[0]
+            desctructive_size: avalanche.desctructive_size,
+            forecast_zones_id: zoneId[0]
           })
         );
       });
@@ -35,21 +34,22 @@ const createForecastZone = (knex, forecast_zone) => {
     });
 };
 
-const createAvalanche = (knex, footnote) => {
+const createAvalanche = (knex, avalanche) => {
   return knex("avalanches").insert(avalanche);
 };
 
 exports.seed = knex => {
-  return knex("avalanches").del()
+  return knex("avalanches")
+    .del()
     .then(() => knex("forecast_zones").del())
     .then(() => {
       let zonePromises = [];
 
-      forecastZoneData.forEach(zone => {
-        zonePromises.push(createForecastZone(knex, zone));
+      combinedData.forEach(zone => {
+        zonePromises.push(createZones(knex, zone));
       });
 
       return Promise.all(zonePromises);
     })
-    .catch(error => console.log(`Error seeding data: ${error}`));
+    .catch(error => new Error(`Error seeding data: ${error}`));
 };
