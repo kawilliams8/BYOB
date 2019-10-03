@@ -5,7 +5,7 @@ If you are making a post request, note that you will need to pass in an options 
 
 ### Forecast Zone and Avalanche data
 
-This database is seeded with the CAIC's `forecast_zones` and `avalanches` from events occuring in January, 2019.
+This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
 `{
     "forecast_zone": {
