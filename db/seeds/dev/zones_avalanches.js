@@ -24,7 +24,7 @@ const createZones = (knex, zone) => {
             type: avalanche.type,
             trigger: avalanche.trigger,
             release_size: avalanche.release_size,
-            desctructive_size: avalanche.desctructive_size,
+            destructive_size: avalanche.destructive_size,
             forecast_zones_id: zoneId[0]
           })
         );
