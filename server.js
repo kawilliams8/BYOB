@@ -1,8 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const csv = require("csv-parser");
-const fs = require("fs");
 
 app.use(express.json());
 app.use(express.static("public"));
