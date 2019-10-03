@@ -3,11 +3,19 @@
 ## API - Endpoints
 If you are making a post request, note that you will need to pass in an options object with a method and headers - with a `'Content-Type': 'application/json'`. You will also need to pass any required fields into the body.
 
-### Forecast Zone and Avalanche data
+### Requesting Forecast Zones and Avalanches data
 
 This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
-One forecast_zone entry:
+| Purpose | URL | Verb | Request Body |
+|----|----|----|----|
+| Request all forecast zones |`/api/v1/forecast_zones`| GET | none |
+| Request all avalanche reports |`/api/v1/avalanches`| GET | none |
+| Request one forecast zone |`/api/v1/forecast_zones/:id`| GET | none |
+| Request one avalanche report |`/api/v1/avalanches/:id`| GET | none |
+
+
+#### forecast_zone entry:
 `{
     "forecast_zone": {
         "id": 45,
@@ -19,7 +27,7 @@ One forecast_zone entry:
     }
 }`
 
-One avalanche entry:
+#### avalanche entry:
 `{
     "avalanche": {
         "id": 593,
@@ -40,10 +48,7 @@ One avalanche entry:
 }`
 
 
-| Purpose | URL | Verb | Request Body |
-|----|----|----|----|
-| Request all forecast zones |`/api/v1/forecast_zones`| GET | none |
-| Request all avalanche reports |`/api/v1/avalanches`| GET | none |
+
 
 ### User Favorites
 
