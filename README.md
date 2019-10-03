@@ -14,6 +14,7 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` report
 | Request one forecast zone |`/api/v1/forecast_zones/:id`| GET | none |
 | Request one avalanche report |`/api/v1/avalanches/:id`| GET | none |
 
+The `:id` should be replaced with the `id` number of a user selected forecast_zone or avalanche.
 
 #### forecast_zone entry:
 `{
@@ -51,8 +52,6 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` report
 
 
 ### User Favorites
-
-The `:user_id` should be replaced with the integer `id` of the user (given in the response from logging in).
 
 The `:favorites_type` should be replaced by the type of favorites your app is working with:
 
