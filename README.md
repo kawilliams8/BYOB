@@ -7,7 +7,7 @@ If you are making a post request, note that you will need to pass in an options 
 
 This database is seeded with the CAIC's `forecast_zones` and `avalanches` from events occuring in January, 2019.
 
-{
+`{
     "forecast_zone": {
         "id": 45,
         "zone": null,
@@ -16,9 +16,9 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` from e
         "created_at": "2019-10-03T16:41:03.577Z",
         "updated_at": "2019-10-03T16:41:03.577Z"
     }
-}
+}`
 
-{
+`{
     "avalanche": {
         "id": 593,
         "date": "2019/01/28",
@@ -35,7 +35,7 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` from e
         "created_at": "2019-10-03T16:41:03.594Z",
         "updated_at": "2019-10-03T16:41:03.594Z"
     }
-}
+}`
 
 
 | Purpose | URL | Verb | Request Body | Sample Success Response |
