@@ -4,6 +4,7 @@ const createZones = (knex, zone) => {
   return knex("forecast_zones")
     .insert(
       {
+        zone: zone.zone_name,
         nearby_city: zone.nearby_city,
         land_features: zone.land_features
       },
