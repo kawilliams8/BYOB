@@ -21,7 +21,7 @@ exports.up = function(knex) {
       table.string("type");
       table.string("trigger");
       table.string("release_size");
-      table.string("destructive_size");
+      table.string("desctructive_size");
       table.integer("forecast_zones_id").unsigned();
       table.foreign("forecast_zones_id").references("forecast_zones.id");
 
