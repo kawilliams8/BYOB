@@ -57,3 +57,17 @@ app.get("/api/v1/forecast_zones", (request, response) => {
       response.status(404).json({ error });
     });
 });
+
+app.get("/api/v1/forecast_zones/:id", (request, response) => {
+  const id = parseInt(request.params.id);
+
+  database("forecast_zones")
+    .select()
+    .then(forecast_zones => forecast_zones.find(forecast_zone => forecast_zone.id === id))
+    .then(forecast_zone => {
+      response.status(200).json({ forecast_zone });
+    })
+    .catch(error => {
+      response.status(404).json({ error: "Forecast zone not found" });
+    });
+});
