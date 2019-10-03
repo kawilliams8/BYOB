@@ -32,3 +32,14 @@ app.get("/api/v1/avalanches", (request, response) => {
       response.status(500).json({ error });
     });
 });
+
+app.get("/api/v1/forecast_zones", (request, response) => {
+  database("forecast_zones")
+  .select()
+    .then(forecast_zones => {
+      response.status(200).json(forecast_zones);
+    })
+    .catch(error => {
+      response.status(500).json({ error });
+    });
+});
