@@ -7,6 +7,7 @@ If you are making a post request, note that you will need to pass in an options 
 
 This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
+One forecast_zone entry:
 `{
     "forecast_zone": {
         "id": 45,
@@ -18,6 +19,7 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` report
     }
 }`
 
+One avalanche entry:
 `{
     "avalanche": {
         "id": 593,
@@ -38,12 +40,10 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` report
 }`
 
 
-| Purpose | URL | Verb | Request Body | Sample Success Response |
-|----|----|----|----|----|
-| Login a user |`/api/v1/login`| POST | `{email: <String>, password: <String>}` | For matching email and password: `{id: 2, name: "Alex", email: "alex@gmail.com"}` |
-| Create new user account |`/api/v1/users`| POST | `{name: <String>, email: <String>, password: <String>}` | For successful new account: `{id: 1, name: "Alan", email: "alan@turing.io"}` |
-
-Note that account emails must be unique.
+| Purpose | URL | Verb | Request Body |
+|----|----|----|----|
+| Request all forecast zones |`/api/v1/forecast_zones`| GET | none |
+| Request all avalanche reports |`/api/v1/avalanches`| GET | none |
 
 ### User Favorites
 
