@@ -54,7 +54,7 @@ app.post("/api/v1/avalanches", (request, response) => {
 
     if (!avalanche[requiredParameter]) {
       return response.status(422).send({
-        error: `Expected format: { date: <String>, date_precision: <String>, first_name: <String>, last_name: <String>, elevation: <String>, aspect: <String>, type: <String>, trigger: <String>, release_size: <String>, destructive_size: <String> }. You're missing a "${requiredParameter}" property.`
+        error: `Expected format: { date: <String>, date_precision: <String>, first_name: <String>, last_name: <String>, elevation: <String>, aspect: <String>, type: <String>, trigger: <String>, release_size: <String>, destructive_size: <String>}. Add a "${requiredParameter}".`
       });
     }
   }
@@ -96,13 +96,14 @@ app.get("/api/v1/forecast_zones/:id", (request, response) => {
     });
 });
 
+
 app.post("/api/v1/forecast_zones", (request, response) => {
   const forecast_zone = request.body;
 
   for (let requiredParameter of ["zone", "nearby_city", "land_features"]) {
     if (!forecast_zone[requiredParameter]) {
       return response.status(422).send({
-        error: `Expected format: { zone: <String>, nearby_city: <String>, land_features: <String> }. Add a "${requiredParameter}" property.`
+        error: `Expected format: { zone: <String>, nearby_city: <String>, land_features: <String> }. Add a "${requiredParameter}".`
       });
     }
   }
