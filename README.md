@@ -66,7 +66,7 @@ The `:id` in the url should be replaced with the `id` number of a user-selected 
 | Add a forecast zone    | `/api/v1/forecast_zones` | POST | * see below  |
 | Add a avalanche report | `/api/v1/avalanches`     | POST | * see below  |
 
-* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with information specific to that particular resource (forecast_zone or avalanches). All information must be passed as a <String>.
+* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with information specific to that particular resource (forecast_zone or avalanches). All information must be passed as a <String>. When POSTing a new avalanche report, pass a <Number> as the forecast_zones_id. This number comes from the id of the forecast zone where the avalanche occurred.
 
 #### new forecast_zone to be posted:
 
