@@ -69,6 +69,16 @@ app.post("/api/v1/avalanches", (request, response) => {
     });
 });
 
+app.delete("/api/v1/avalanches/:id", (request, response) => {
+  const id = parseInt(request.params.id);
+
+  database("avalanches")
+    .where({ id: id })
+    .select()
+    .del()
+    .then(() => response.status(202).json("Avalanche report deleted."));
+});
+
 app.get("/api/v1/forecast_zones", (request, response) => {
   database("forecast_zones")
     .select()
@@ -129,5 +139,5 @@ app.delete("/api/v1/forecast_zones/:id", (request, response) => {
     .where({ id: id })
     .select()
     .del()  
-    .then(() => response.status(202).json("Item deleted."))
+    .then(() => response.status(202).json("Forecast zone deleted."))
 });
