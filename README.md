@@ -1,9 +1,8 @@
 # Build Your Own Backend
 
 ## API - Endpoints
-If you are making a post request, note that you will need to pass in an options object with a method and headers - with a `'Content-Type': 'application/json'`. You will also need to pass any required fields into the body.
 
-### Requesting Forecast Zones and Avalanches data
+### Requesting all Forecast Zones and Avalanches entries
 
 This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
@@ -14,9 +13,10 @@ This database is seeded with the CAIC's `forecast_zones` and `avalanches` report
 | Request one forecast zone |`/api/v1/forecast_zones/:id`| GET | none |
 | Request one avalanche report |`/api/v1/avalanches/:id`| GET | none |
 
-The `:id` should be replaced with the `id` number of a user selected forecast_zone or avalanche.
+The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche.
 
-#### forecast_zone entry:
+#### example forecast_zone entry:
+```
 `{
     "forecast_zone": {
         "id": 45,
@@ -27,8 +27,10 @@ The `:id` should be replaced with the `id` number of a user selected forecast_zo
         "updated_at": "2019-10-03T16:41:03.577Z"
     }
 }`
+```
 
-#### avalanche entry:
+#### example avalanche entry:
+```
 `{
     "avalanche": {
         "id": 593,
@@ -47,9 +49,52 @@ The `:id` should be replaced with the `id` number of a user selected forecast_zo
         "updated_at": "2019-10-03T16:41:03.594Z"
     }
 }`
+```
 
+### Posting a new Forecast Zone or Avalanche entry
 
+| Purpose | URL | Verb | Request Body |
+|----|----|----|----|
+| Add a forecast zone |`/api/v1/forecast_zones`| POST | see below |
+| Add a avalanche report |`/api/v1/avalanches`| POST | see below |
 
+The `:id` should be replaced with the `id` number of a user selected forecast_zone or avalanche.
+
+#### example forecast_zone entry:
+```
+`{
+    "forecast_zone": {
+        "id": 45,
+        "zone": null,
+        "nearby_city": "Aspen",
+        "land_features": "Elk Range",
+        "created_at": "2019-10-03T16:41:03.577Z",
+        "updated_at": "2019-10-03T16:41:03.577Z"
+    }
+}`
+```
+
+#### example avalanche entry:
+```
+`{
+    "avalanche": {
+        "id": 593,
+        "date": "2019/01/28",
+        "date_precision": "Estimated",
+        "first_name": "Matt",
+        "last_name": "Huber",
+        "elevation": "TL",
+        "aspect": "SW",
+        "type": "HS",
+        "trigger": "N",
+        "release_size": "R2",
+        "destructive_size": "D2",
+        "forecast_zones_id": 45,
+        "created_at": "2019-10-03T16:41:03.594Z",
+        "updated_at": "2019-10-03T16:41:03.594Z"
+    }
+}`
+```
 
 ### User Favorites
 
