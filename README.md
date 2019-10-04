@@ -10,7 +10,7 @@ BYOB is deployed to Heroku.
 
 ### Requesting all Forecast Zones and Avalanches entries
 
-This database is seeded with the Colorado Avalanche Information Center's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
+This database is seeded with the [Colorado Avalanche Information Center](https://avalanche.state.co.us)'s `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
 | Purpose                       | URL                          | Verb | Request Body |
 | ----------------------------- | ---------------------------- | ---- | ------------ |
@@ -19,9 +19,9 @@ This database is seeded with the Colorado Avalanche Information Center's `foreca
 | Request one forecast zone     | `/api/v1/forecast_zones/:id` | GET  | none         |
 | Request one avalanche report  | `/api/v1/avalanches/:id`     | GET  | none         |
 
-The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche.
+* The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche. A successful GET will return all `forecast_zones` or `avalanches` as an array of objects.
 
-#### example forecast_zone entry:
+#### example forecast_zone:
 
 ```
 `{
@@ -36,7 +36,7 @@ The `:id` in the url should be replaced with the `id` number of a user-selected 
 }`
 ```
 
-#### example avalanche entry:
+#### example avalanche:
 
 ```
 `{
@@ -64,9 +64,9 @@ The `:id` in the url should be replaced with the `id` number of a user-selected 
 | Purpose                | URL                      | Verb | Request Body |
 | ---------------------- | ------------------------ | ---- | ------------ |
 | Add a forecast zone    | `/api/v1/forecast_zones` | POST | * see below  |
-| Add a avalanche report | `/api/v1/avalanches`     | POST | * see below  |
+| Add an avalanche report | `/api/v1/avalanches`     | POST | * see below  |
 
-* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with information specific to that particular resource (forecast_zone or avalanches). All information must be passed as a <String>. When POSTing a new avalanche report, pass a <Number> as the forecast_zones_id. This number comes from the id of the forecast zone where the avalanche occurred.
+* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with required information specific to that particular resource type (i.e., `forecast_zones` or `avalanches`). All information must be passed as a <String>, except for the `forecast_zones_id`. When POSTing a new avalanche report, the `forecast_zones_id` property connects the new avalanche report to the forecast zone where the avalanche occurred. Include a <Number> value for the correct zone (as selected by the user). A successful post returns the `id` of the new `forecast_zone` or `avalanche`.
 
 #### new forecast_zone to be posted:
 
@@ -95,3 +95,13 @@ The `:id` in the url should be replaced with the `id` number of a user-selected 
     "forecast_zones_id": 45
 }`
 ```
+
+### Deleting a Forecast Zone or Avalanche entry
+
+| Purpose                | URL                      | Verb | Request Body |
+| ---------------------- | ------------------------ | ---- | ------------ |
+| Remove a forecast zone    | `/api/v1/forecast_zones/:id` | DELETE | * see below  |
+| Remove an avalanche report | `/api/v1/avalanches/:id`     | DELETE | * see below  |
+
+* The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche. A successful DELETE will return a confirmation message: `"Forecast zone deleted."` or `Avalanche report deleted.`
+
