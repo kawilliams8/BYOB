@@ -121,3 +121,13 @@ app.post("/api/v1/forecast_zones", (request, response) => {
       });
     });
 });
+
+app.delete("/api/v1/forecast_zones/:id", (request, response) => {
+  const id = parseInt(request.params.id);
+
+  database("forecast_zones")
+    .where({ id: id })
+    .select()
+    .del()  
+    .then(() => response.status(202).json("Item deleted."))
+});
