@@ -1,10 +1,16 @@
 # Build Your Own Backend
 
-## API - Endpoints
+Build Your Own Backend (BYOB) is the first solo project in MOD 4 of the Front End Engineering program at the Turing School of Software and Design. This project introduces Front End students to relational databases, designing schemas, migrating and seeding data, and building endpoints with full documentation.
+
+BYOB also requires students to use a sprint board tool like ClubHouse , test endpoints with Postman, incorporate a Pull Request template, and use a rebase workflow. Students were also required to provide line-by-line annotation in the server.js file to demonstrate understanding.
+
+BYOB is deployed to Heroku.
+
+## API endpoints
 
 ### Requesting all Forecast Zones and Avalanches entries
 
-This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
+This database is seeded with the Colorado Avalanche Information Center's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
 | Purpose                       | URL                          | Verb | Request Body |
 | ----------------------------- | ---------------------------- | ---- | ------------ |
@@ -89,7 +95,3 @@ The `:id` in the url should be replaced with the `id` number of a user-selected 
     "forecast_zones_id": 45
 }`
 ```
-
-| Add a favorite for a user    | `/api/v1/users/:user_id/:favorites_type`              | POST   | `{see above for information to include in this object}` | `{"id": 2, "user_id": 1, "album_id": 558262493, "artist_name": "alt-J", "album_name": "An Awesome Wave", "artwork_url": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/3b/43/9e/3b439e7f-9989-1dc1-9ffb-8d876ddb0da1/source/100x100bb.jpg", "release_date": "2012-09-18T07:00:00Z", "content_advisory_rating": "notExplicit", "primary_genre_name": "Alternative"}` |
-| Get all favorites for a user | `/api/v1/users/:user_id/:favorites_type`              | GET    | none                                                    | `{favorites: [array of favorites]}`                                                                                                                                                                                                                                                                                                                                     |
-| Delete a favorite for a user | `/api/v1/users/:user_id/:favorites_type/:favorite_id` | DELETE | none                                                    | 204 status code, no response body content                                                                                                                                                                                                                                                                                                                               |
