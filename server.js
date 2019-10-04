@@ -43,18 +43,40 @@ app.get("/api/v1/avalanches/:id", (request, response) => {
       response.status(200).json({ avalanche });
     })
     .catch(error => {
-      response.status(500).json({ error });
+      response.status(404).json({ error });
     });
 });
 
 app.post("/api/v1/avalanches", (request, response) => {
   const avalanche = request.body;
 
-  for (let requiredParameter of ["date", "date_precision", "first_name", "last_name", "elevation", "aspect", "type", "trigger", "release_size", "destructive_size"]) {
-
+  for (let requiredParameter of [
+    "date",
+    "date_precision",
+    "first_name",
+    "last_name",
+    "elevation",
+    "aspect",
+    "type",
+    "trigger",
+    "release_size",
+    "destructive_size",
+    "forecast_zones_id"
+  ]) {
     if (!avalanche[requiredParameter]) {
       return response.status(422).send({
-        error: `Expected format: { date: <String>, date_precision: <String>, first_name: <String>, last_name: <String>, elevation: <String>, aspect: <String>, type: <String>, trigger: <String>, release_size: <String>, destructive_size: <String>}. Add a "${requiredParameter}".`
+        error: `Expected format: { 
+          date: <String>, 
+          date_precision: <String>, 
+          first_name: <String>, 
+          last_name: <String>, 
+          elevation: <String>, 
+          aspect: <String>, 
+          type: <String>, 
+          trigger: <String>, 
+          release_size: <String>, 
+          destructive_size: <String>}. 
+          Add a "${requiredParameter}".`
       });
     }
   }
@@ -62,7 +84,9 @@ app.post("/api/v1/avalanches", (request, response) => {
   database("avalanches")
     .insert(avalanche, "id")
     .then(avalanche => {
-      response.status(201).json({ id: avalanche[0] });
+      response.status(201).json({
+        id: avalanche[0]
+      });
     })
     .catch(error => {
       response.status(500).json({ error });
@@ -86,7 +110,7 @@ app.get("/api/v1/forecast_zones", (request, response) => {
       response.status(200).json(forecast_zones);
     })
     .catch(error => {
-      response.status(500).json({ error });
+      response.status(404).json({ error });
     });
 });
 
@@ -102,10 +126,9 @@ app.get("/api/v1/forecast_zones/:id", (request, response) => {
       response.status(200).json({ forecast_zone });
     })
     .catch(error => {
-      response.status(500).json({ error });
+      response.status(404).json({ error });
     });
 });
-
 
 app.post("/api/v1/forecast_zones", (request, response) => {
   const forecast_zone = request.body;
@@ -113,7 +136,11 @@ app.post("/api/v1/forecast_zones", (request, response) => {
   for (let requiredParameter of ["zone", "nearby_city", "land_features"]) {
     if (!forecast_zone[requiredParameter]) {
       return response.status(422).send({
-        error: `Expected format: { zone: <String>, nearby_city: <String>, land_features: <String> }. Add a "${requiredParameter}".`
+        error: `Expected format: { 
+          zone: <String>, 
+          nearby_city: <String>, 
+          land_features: <String> }. 
+          Add a "${requiredParameter}".`
       });
     }
   }
@@ -138,6 +165,6 @@ app.delete("/api/v1/forecast_zones/:id", (request, response) => {
   database("forecast_zones")
     .where({ id: id })
     .select()
-    .del()  
-    .then(() => response.status(202).json("Forecast zone deleted."))
+    .del()
+    .then(() => response.status(202).json("Forecast zone deleted."));
 });
