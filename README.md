@@ -1,22 +1,57 @@
 # Build Your Own Backend
 
 ## API - Endpoints
-If you are making a post request, note that you will need to pass in an options object with a method and headers - with a `'Content-Type': 'application/json'`. You will also need to pass any required fields into the body. Check out the [docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) for additional info.
+If you are making a post request, note that you will need to pass in an options object with a method and headers - with a `'Content-Type': 'application/json'`. You will also need to pass any required fields into the body.
 
-### User Account
+### Requesting Forecast Zones and Avalanches data
 
-The database starts off with a single user inside. -> { email: "alan@turing.io" password: "password" }
+This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
-| Purpose | URL | Verb | Request Body | Sample Success Response |
-|----|----|----|----|----|
-| Login a user |`/api/v1/login`| POST | `{email: <String>, password: <String>}` | For matching email and password: `{id: 2, name: "Alex", email: "alex@gmail.com"}` |
-| Create new user account |`/api/v1/users`| POST | `{name: <String>, email: <String>, password: <String>}` | For successful new account: `{id: 1, name: "Alan", email: "alan@turing.io"}` |
+| Purpose | URL | Verb | Request Body |
+|----|----|----|----|
+| Request all forecast zones |`/api/v1/forecast_zones`| GET | none |
+| Request all avalanche reports |`/api/v1/avalanches`| GET | none |
+| Request one forecast zone |`/api/v1/forecast_zones/:id`| GET | none |
+| Request one avalanche report |`/api/v1/avalanches/:id`| GET | none |
 
-Note that account emails must be unique.
+The `:id` should be replaced with the `id` number of a user selected forecast_zone or avalanche.
+
+#### forecast_zone entry:
+`{
+    "forecast_zone": {
+        "id": 45,
+        "zone": null,
+        "nearby_city": "Aspen",
+        "land_features": "Elk Range",
+        "created_at": "2019-10-03T16:41:03.577Z",
+        "updated_at": "2019-10-03T16:41:03.577Z"
+    }
+}`
+
+#### avalanche entry:
+`{
+    "avalanche": {
+        "id": 593,
+        "date": "2019/01/28",
+        "date_precision": "Estimated",
+        "first_name": "Matt",
+        "last_name": "Huber",
+        "elevation": "TL",
+        "aspect": "SW",
+        "type": "HS",
+        "trigger": "N",
+        "release_size": "R2",
+        "destructive_size": "D2",
+        "forecast_zones_id": 45,
+        "created_at": "2019-10-03T16:41:03.594Z",
+        "updated_at": "2019-10-03T16:41:03.594Z"
+    }
+}`
+
+
+
 
 ### User Favorites
-
-The `:user_id` should be replaced with the integer `id` of the user (given in the response from logging in).
 
 The `:favorites_type` should be replaced by the type of favorites your app is working with:
 
