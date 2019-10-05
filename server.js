@@ -153,68 +153,107 @@ app.delete("/api/v1/avalanches/:id", (request, response) => {
     .then(() => response.status(202).json("Avalanche report deleted."));
 });
 
+
+//Creates an endpoint to receive all forecast_zones objects with a GET request
 app.get("/api/v1/forecast_zones", (request, response) => {
+//When this request occurs, go into the 'forecast_zones' table of the database
   database("forecast_zones")
-    .select()
-    .then(forecast_zones => {
-      response.status(200).json(forecast_zones);
-    })
-    .catch(error => {
+//Select the entire table and return the forecast_zones objects
+  .select()
+//Accept the returned forecast_zones and pass them into a function
+  .then(forecast_zones => {
+//Return the forecast_zones response with an OK code and the stringified forecast_zones
+    response.status(200).json(forecast_zones);
+  })
+//If there is an error/problem from the server
+  .catch(error => {
+//Return the response with a Not Found code and the error message
       response.status(404).json({ error });
     });
 });
 
-app.get("/api/v1/forecast_zones/:id", (request, response) => {
-  const id = parseInt(request.params.id);
 
+//Create an endpoint to receive one forecast_zone object with a GET request
+app.get("/api/v1/forecast_zones/:id", (request, response) => {
+//Declare a variable to hold the incoming id number from the URL
+  const id = parseInt(request.params.id);
+  
+//When this request occurs, go into the 'forecast_zones' table of the database
   database("forecast_zones")
-    .select()
-    .then(forecast_zones =>
-      forecast_zones.find(forecast_zone => forecast_zone.id === id)
+//Select the entire table and return the forecast_zones objects
+  .select()
+//Accept the returned forecast_zones and pass them into a function to find the match by id number
+  .then(forecast_zones =>
+    forecast_zones.find(forecast_zone => forecast_zone.id === id)
     )
+//Pass the matching zone object to a function
     .then(forecast_zone => {
+//Return a response with an OK code and the stringified zone object
       response.status(200).json({ forecast_zone });
     })
+//If there is an error/problem from the server
     .catch(error => {
+//Return the response with a Not Found code and the error message
       response.status(404).json({ error });
     });
 });
 
-app.post("/api/v1/forecast_zones", (request, response) => {
-  const forecast_zone = request.body;
 
+//Create an endpoint to add one forecast_zones object with a POST request
+app.post("/api/v1/forecast_zones", (request, response) => {
+//Declare a variable to hold the incoming object with the new zone's details
+  const forecast_zone = request.body;
+  
+//iterate through the new forecast_zone to confirm that it has all required key/value pairs
   for (let requiredParameter of ["zone", "nearby_city", "land_features"]) {
+//If one of the requiredParameter keys is not present
     if (!forecast_zone[requiredParameter]) {
+//Send an error response with code 422 (Unprocessable Entry)
       return response.status(422).send({
+//And show what the format should be (with a note on which requiredParameter is missing)
         error: `Expected format: { 
           zone: <String>, 
           nearby_city: <String>, 
           land_features: <String> }. 
           Add a "${requiredParameter}".`
-      });
+        });
+      }
     }
-  }
-
-  database("forecast_zones")
+    
+//When this request occurs, go into the 'forecast_zones' table of the database
+    database("forecast_zones")
+//Insert the new forecast_zones entry into the database and return its new id number
     .insert(forecast_zone, "id")
+//Then take the returned forecast_zone id (in an array) and pass it to a function
     .then(forecast_zone => {
+//That responds with a 201 code (Created)
       response.status(201).json({
+//And responds with the new id number from the array to confirm success to the developer
         id: forecast_zone[0]
       });
     })
+//If there is an error/problem from the server
     .catch(error => {
+//Return the response with a server error code and the error message
       response.status(500).json({
         error
       });
     });
 });
 
+//Create an endpoint to remove one forecast_zones object with a DELETE request
 app.delete("/api/v1/forecast_zones/:id", (request, response) => {
+//Declare a variable to hold the incoming id number that we wish to delete from the URL
   const id = parseInt(request.params.id);
 
+//When this request occurs, go into the 'forecase_zones' table of the database
   database("forecast_zones")
+//And find the entry with an id number that matches our incoming id to delete
     .where({ id: id })
+//Select that resource
     .select()
+//And remove it from the database
     .del()
+//Then send a response with a 202 code (Accepted) and a string to confirm success to the developer
     .then(() => response.status(202).json("Forecast zone deleted."));
 });
