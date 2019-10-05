@@ -8,13 +8,13 @@ BYOB is deployed to Heroku at `https://byobwilliams.herokuapp.com/api/v1/[...]`.
 
 ## Schema
 
+This database is seeded with the [Colorado Avalanche Information Center](https://avalanche.state.co.us)'s `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
+
 ![schema](https://github.com/kawilliams8/BYOB/blob/master/assets/schema.png)
 
 ## API endpoints
 
 ### Requesting all Forecast Zones and Avalanches entries
-
-This database is seeded with the [Colorado Avalanche Information Center](https://avalanche.state.co.us)'s `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
 
 | Purpose                       | URL                          | Verb | Request Body |
 | ----------------------------- | ---------------------------- | ---- | ------------ |
