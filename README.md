@@ -1,10 +1,10 @@
 # Build Your Own Backend
 
-Build Your Own Backend (BYOB) is the first solo project in MOD 4 of the Front End Engineering program at the Turing School of Software and Design. This project introduces Front End students to relational databases, designing schemas, migrating and seeding data, and building endpoints with full documentation.
+Build Your Own Backend (BYOB) is the first solo project in Mod 4 of the Front End Engineering program at the Turing School of Software and Design. This project introduces Front End students to relational databases, designing schemas, migrating and seeding data, and building endpoints with full documentation.
 
-BYOB also requires students to use a sprint board tool like ClubHouse , test endpoints with Postman, incorporate a Pull Request template, and use a rebase workflow. Students were also required to provide line-by-line annotation in the server.js file to demonstrate understanding.
+BYOB also requires students to use a sprint board tool like ClubHouse, test endpoints with Postman, incorporate a Pull Request template, and use a rebase workflow. Students were also required to provide line-by-line annotation in the server.js file to demonstrate understanding.
 
-BYOB is deployed to [Heroku](https://byobwilliams.herokuapp.com/api/v1/...)
+BYOB is deployed to Heroku at `https://byobwilliams.herokuapp.com/api/v1/[...]`.
 
 ## API endpoints
 
