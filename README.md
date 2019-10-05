@@ -4,7 +4,7 @@ Build Your Own Backend (BYOB) is the first solo project in MOD 4 of the Front En
 
 BYOB also requires students to use a sprint board tool like ClubHouse , test endpoints with Postman, incorporate a Pull Request template, and use a rebase workflow. Students were also required to provide line-by-line annotation in the server.js file to demonstrate understanding.
 
-BYOB is deployed to Heroku.
+BYOB is deployed to [Heroku](https://byobwilliams.herokuapp.com/api/v1/...)
 
 ## API endpoints
 
