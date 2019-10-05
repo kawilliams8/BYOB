@@ -1,22 +1,29 @@
 # Build Your Own Backend
 
-## API - Endpoints
-If you are making a post request, note that you will need to pass in an options object with a method and headers - with a `'Content-Type': 'application/json'`. You will also need to pass any required fields into the body.
+Build Your Own Backend (BYOB) is the first solo project in MOD 4 of the Front End Engineering program at the Turing School of Software and Design. This project introduces Front End students to relational databases, designing schemas, migrating and seeding data, and building endpoints with full documentation.
 
-### Requesting Forecast Zones and Avalanches data
+BYOB also requires students to use a sprint board tool like ClubHouse , test endpoints with Postman, incorporate a Pull Request template, and use a rebase workflow. Students were also required to provide line-by-line annotation in the server.js file to demonstrate understanding.
 
-This database is seeded with the CAIC's `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
+BYOB is deployed to Heroku.
 
-| Purpose | URL | Verb | Request Body |
-|----|----|----|----|
-| Request all forecast zones |`/api/v1/forecast_zones`| GET | none |
-| Request all avalanche reports |`/api/v1/avalanches`| GET | none |
-| Request one forecast zone |`/api/v1/forecast_zones/:id`| GET | none |
-| Request one avalanche report |`/api/v1/avalanches/:id`| GET | none |
+## API endpoints
 
-The `:id` should be replaced with the `id` number of a user selected forecast_zone or avalanche.
+### Requesting all Forecast Zones and Avalanches entries
 
-#### forecast_zone entry:
+This database is seeded with the [Colorado Avalanche Information Center](https://avalanche.state.co.us)'s `forecast_zones` and `avalanches` reports for events occuring in January, 2019.
+
+| Purpose                       | URL                          | Verb | Request Body |
+| ----------------------------- | ---------------------------- | ---- | ------------ |
+| Request all forecast zones    | `/api/v1/forecast_zones`     | GET  | none         |
+| Request all avalanche reports | `/api/v1/avalanches`         | GET  | none         |
+| Request one forecast zone     | `/api/v1/forecast_zones/:id` | GET  | none         |
+| Request one avalanche report  | `/api/v1/avalanches/:id`     | GET  | none         |
+
+* The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche. A successful GET will return all `forecast_zones` or `avalanches` as an array of objects.
+
+#### example forecast_zone:
+
+```
 `{
     "forecast_zone": {
         "id": 45,
@@ -27,8 +34,11 @@ The `:id` should be replaced with the `id` number of a user selected forecast_zo
         "updated_at": "2019-10-03T16:41:03.577Z"
     }
 }`
+```
 
-#### avalanche entry:
+#### example avalanche:
+
+```
 `{
     "avalanche": {
         "id": 593,
@@ -47,30 +57,51 @@ The `:id` should be replaced with the `id` number of a user selected forecast_zo
         "updated_at": "2019-10-03T16:41:03.594Z"
     }
 }`
+```
 
+### Posting a new Forecast Zone or Avalanche entry
 
+| Purpose                | URL                      | Verb | Request Body |
+| ---------------------- | ------------------------ | ---- | ------------ |
+| Add a forecast zone    | `/api/v1/forecast_zones` | POST | * see below  |
+| Add an avalanche report | `/api/v1/avalanches`     | POST | * see below  |
 
+* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with required information specific to that particular resource type (i.e., `forecast_zones` or `avalanches`). All information must be passed as a <String>, except for the `forecast_zones_id`. When POSTing a new avalanche report, the `forecast_zones_id` property connects the new avalanche report to the forecast zone where the avalanche occurred. Include a <Number> value for the correct zone (as selected by the user). A successful post returns the `id` of the new `forecast_zone` or `avalanche`.
 
-### User Favorites
+#### new forecast_zone to be posted:
 
-The `:favorites_type` should be replaced by the type of favorites your app is working with:
+```
+`{
+    "zone": "Aspen",
+    "nearby_city": "Aspen",
+    "land_features": "Elk Range"
+}`
+```
 
-* `moviefavorites`
-* `bookfavorites`
-* `albumfavorites`
+#### new avalanche to be posted:
 
-The `:favorites_id` should be replaced with the `id` of the favorite (the `movie_id`, `book_id`, or `album_id`).
+```
+`{
+    "date": "2019/01/28",
+    "date_precision": "Estimated",
+    "first_name": "Matt",
+    "last_name": "Huber",
+    "elevation": "TL",
+    "aspect": "SW",
+    "type": "HS",
+    "trigger": "N",
+    "release_size": "R2",
+    "destructive_size": "D2",
+    "forecast_zones_id": 45
+}`
+```
 
-The body of the POST request to add a favorite will differ depending on what data you are working with:
+### Deleting a Forecast Zone or Avalanche entry
 
-* `moviefavorites` requires: `movie_id (Integer), title (String), poster_path (String), release_date (String), vote_average (String), overview (String)`
-* `bookfavorites` requires: `book_id (Integer), author_name (String), book_name VARCHAR (String), artwork_url (String), release_date (String), description (String), primary_genre_name (String)`
-* `albumfavorites` requires: `album_id (Integer), artist_name (String), album_name (String), artwork_url (String), release_date (String), content_advisory_rating (String), primary_genre_name (String)`
+| Purpose                | URL                      | Verb | Request Body |
+| ---------------------- | ------------------------ | ---- | ------------ |
+| Remove a forecast zone    | `/api/v1/forecast_zones/:id` | DELETE | * see below  |
+| Remove an avalanche report | `/api/v1/avalanches/:id`     | DELETE | * see below  |
 
-*Note:* The object keys passed in the request body will not completely match the object keys given back from the iTunes Search API
+* The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche. A successful DELETE will return a confirmation message: `"Forecast zone deleted."` or `Avalanche report deleted.`
 
-| Purpose | URL | Verb | Request Body | Sample Success Response |
-|----|----|----|----|----|
-| Add a favorite for a user | `/api/v1/users/:user_id/:favorites_type` | POST | `{see above for information to include in this object}` | `{"id": 2, "user_id": 1, "album_id": 558262493, "artist_name": "alt-J", "album_name": "An Awesome Wave", "artwork_url": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/3b/43/9e/3b439e7f-9989-1dc1-9ffb-8d876ddb0da1/source/100x100bb.jpg", "release_date": "2012-09-18T07:00:00Z", "content_advisory_rating": "notExplicit", "primary_genre_name": "Alternative"}` |
-| Get all favorites for a user | `/api/v1/users/:user_id/:favorites_type` | GET | none | `{favorites: [array of favorites]}` |
-| Delete a favorite for a user | `/api/v1/users/:user_id/:favorites_type/:favorite_id` | DELETE | none | 204 status code, no response body content |
