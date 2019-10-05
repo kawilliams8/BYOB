@@ -100,8 +100,8 @@ This database is seeded with the [Colorado Avalanche Information Center](https:/
 
 | Purpose                | URL                      | Verb | Request Body |
 | ---------------------- | ------------------------ | ---- | ------------ |
-| Remove a forecast zone    | `/api/v1/forecast_zones/:id` | DELETE | * see below  |
-| Remove an avalanche report | `/api/v1/avalanches/:id`     | DELETE | * see below  |
+| Remove a forecast zone    | `/api/v1/forecast_zones/:id` | DELETE | none  |
+| Remove an avalanche report | `/api/v1/avalanches/:id`     | DELETE | none  |
 
 * The `:id` in the url should be replaced with the `id` number of a user-selected forecast_zone or avalanche. A successful DELETE will return a confirmation message: `"Forecast zone deleted."` or `Avalanche report deleted.`
 
