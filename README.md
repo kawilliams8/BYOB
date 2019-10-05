@@ -6,6 +6,10 @@ BYOB also requires students to use a sprint board tool like ClubHouse, test endp
 
 BYOB is deployed to Heroku at `https://byobwilliams.herokuapp.com/api/v1/[...]`.
 
+## Schema
+
+![schema](https://github.com/kawilliams8/BYOB/blob/master/assets/schema.png)
+
 ## API endpoints
 
 ### Requesting all Forecast Zones and Avalanches entries
