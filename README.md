@@ -70,7 +70,7 @@ This database is seeded with the [Colorado Avalanche Information Center](https:/
 | Add a forecast zone    | `/api/v1/forecast_zones` | POST | * see below  |
 | Add an avalanche report | `/api/v1/avalanches`     | POST | * see below  |
 
-* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with required information specific to that particular resource type (i.e., `forecast_zones` or `avalanches`). All information must be passed as a string, except for the `forecast_zones_id`. When POSTing a new avalanche report, the `forecast_zones_id` property connects the new avalanche report to the forecast zone where the avalanche occurred. Include a <Number> value for the correct zone. A successful post returns the `id` of the new `forecast_zone` or `avalanche`.
+* Each POST call must pass an options object that includes a header of 'Content-Type': 'application/json'. The body must also pass an object with required information specific to that particular resource type (i.e., `forecast_zones` or `avalanches`). All information must be passed as a string, except for the `forecast_zones_id`. When POSTing a new avalanche report, the `forecast_zones_id` property connects the new avalanche report to the forecast zone where the avalanche occurred. Include a number value for the correct zone's id. A successful post returns the `id` of the new `forecast_zone` or `avalanche`.
 
 #### new forecast_zone to be posted:
 
